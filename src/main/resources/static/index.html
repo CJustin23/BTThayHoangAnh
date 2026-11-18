@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Công Nhân</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="header-main">
+            <h1>QUẢN LÝ CÔNG NHÂN</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- HÀNG 1: THÊM TỈNH/TP - THÊM CÔNG NHÂN - HIỂN THỊ KẾT QUẢ THÊM -->
+        <section class="section-block">
+            <div class="grid-3">
+                <!-- 1. Thêm Tỉnh/TP -->
+                <div class="card">
+                    <h3>Thêm Tỉnh / TP</h3>
+                    <form id="formAddProvince" onsubmit="handleAddProvince(event)">
+                        <div class="form-group">
+                            <label for="tenTinh">Tên Tỉnh/TP <span class="req">*</span></label>
+                            <input type="text" id="tenTinh" placeholder="Nhập tên Tỉnh/TP..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="moTaTinh">Mô tả</label>
+                            <textarea id="moTaTinh" rows="3" placeholder="Nhập mô tả Tỉnh/TP..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Thêm Tỉnh/TP</button>
+                    </form>
+                </div>
+
+                <!-- 2. Thêm Công nhân (chọn quê quán từ danh sách) -->
+                <div class="card">
+                    <h3>Thêm Công nhân</h3>
+                    <form id="formAddWorker" onsubmit="handleAddWorker(event)">
+                        <div class="form-group">
+                            <label for="hoTen">Họ tên <span class="req">*</span></label>
+                            <input type="text" id="hoTen" placeholder="Nhập họ tên công nhân..." required>
+                        </div>
+                        <div class="form-row-2">
+                            <div class="form-group">
+                                <label for="namSinh">Năm sinh <span class="req">*</span></label>
+                                <input type="number" id="namSinh" min="1945" max="2012" value="1997" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="mucLuong">Mức lương <span class="req">*</span></label>
+                                <input type="number" id="mucLuong" min="100000" step="100000" value="12000000" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="queQuanId">Quê quán <span class="req">*</span></label>
+                            <select id="queQuanId" required>
+                                <option value="">-- Chọn quê quán từ danh sách --</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-full">Thêm Công nhân</button>
+                    </form>
+                </div>
+
+                <!-- 3. Hiển thị kết quả Thêm -->
+                <div class="card">
+                    <h3>Hiển thị kết quả Thêm</h3>
+                    <div id="addResultContainer" class="add-result-box empty">
+                        Chưa có dữ liệu vừa thêm.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HÀNG 2: TÌM KIẾM CÔNG NHÂN & XÓA THEO TỪ KHÓA -->
+        <section class="section-block">
+            <div class="grid-search-delete">
+                <!-- Tìm kiếm và hiển thị theo quê quán / khoảng năm sinh / khoảng lương -->
+                <div class="card">
+                    <h3>Tìm kiếm và hiển thị Công nhân</h3>
+                    <form id="formSearchWorker" onsubmit="handleSearchWorkers(event)">
+                        <div class="search-grid-3">
+                            <div class="form-group">
+                                <label for="searchQueQuanId">Theo Quê quán</label>
+                                <select id="searchQueQuanId">
+                                    <option value="">-- Tất cả Quê quán --</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Khoảng năm sinh</label>
+                                <div class="range-inputs">
+                                    <input type="number" id="searchMinNamSinh" placeholder="Từ năm">
+                                    <span>-</span>
+                                    <input type="number" id="searchMaxNamSinh" placeholder="Đến năm">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Khoảng lương</label>
+                                <div class="range-inputs">
+                                    <input type="number" id="searchMinLuong" step="500000" placeholder="Từ mức lương">
+                                    <span>-</span>
+                                    <input type="number" id="searchMaxLuong" step="500000" placeholder="Đến mức lương">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="action-bar">
+                            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+                            <button type="button" class="btn btn-secondary" onclick="resetSearch()">Hiển thị tất cả</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Xóa công nhân theo từ khóa -->
+                <div class="card">
+                    <h3>Xóa công nhân theo từ khóa</h3>
+                    <form id="formDeleteByKeyword" onsubmit="handleDeleteByKeyword(event)">
+                        <div class="form-group">
+                            <label for="deleteKeyword">Từ khóa <span class="req">*</span></label>
+                            <input type="text" id="deleteKeyword" placeholder="Nhập từ khóa cần xóa..." required>
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-full">Xóa theo từ khóa</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- HÀNG 3: DANH SÁCH CÔNG NHÂN & DANH SÁCH TỈNH/TP -->
+        <section class="section-block">
+            <div class="grid-tables">
+                <!-- Danh sách Công nhân -->
+                <div class="card">
+                    <div class="table-header-row">
+                        <h3>Danh sách Công nhân</h3>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Mã</th>
+                                    <th>Họ tên</th>
+                                    <th>Năm sinh</th>
+                                    <th>Quê quán</th>
+                                    <th>Mức lương</th>
+                                    <th class="text-center">Thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody id="workerTableBody">
+                                <tr>
+                                    <td colspan="6" class="text-center">Đang tải dữ liệu...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Danh sách Tỉnh/TP -->
+                <div class="card">
+                    <div class="table-header-row">
+                        <h3>Danh sách Tỉnh/TP</h3>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Mã</th>
+                                    <th>Tên Tỉnh/TP</th>
+                                    <th>Mô tả</th>
+                                </tr>
+                            </thead>
+                            <tbody id="provinceTableBody">
+                                <tr>
+                                    <td colspan="3" class="text-center">Đang tải dữ liệu...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Cập nhật thông tin công nhân -->
+    <div id="editModal" class="modal-backdrop hidden">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h3>Cập nhật thông tin Công nhân</h3>
+                <button type="button" class="modal-close" onclick="closeEditModal()">&times;</button>
+            </div>
+            <form id="formUpdateWorker" onsubmit="handleUpdateWorker(event)">
+                <input type="hidden" id="editWorkerId">
+                <div class="form-group">
+                    <label for="editHoTen">Họ tên <span class="req">*</span></label>
+                    <input type="text" id="editHoTen" required>
+                </div>
+                <div class="form-row-2">
+                    <div class="form-group">
+                        <label for="editNamSinh">Năm sinh <span class="req">*</span></label>
+                        <input type="number" id="editNamSinh" min="1945" max="2012" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="editMucLuong">Mức lương <span class="req">*</span></label>
+                        <input type="number" id="editMucLuong" min="100000" step="100000" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="editQueQuanId">Quê quán <span class="req">*</span></label>
+                    <select id="editQueQuanId" required></select>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeEditModal()">Hủy</button>
+                    <button type="submit" class="btn btn-primary">Cập nhật</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="toastContainer" class="toast-container"></div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.quanlycongnhan'
+version = '1.0.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JSON Serialization cho giao thức TCP/IP và REST Bridge
+    implementation 'com.google.code.gson:gson:2.11.0'
+
+    // JDBC Driver cho MySQL
+    implementation 'com.mysql:mysql-connector-j:8.4.0'
+
+    // JDBC Driver cho Microsoft SQL Server
+    implementation 'com.microsoft.sqlserver:mssql-jdbc:12.6.1.jre11'
+
+    // H2 Database (dự phòng tự động chạy ngay nếu máy chưa bật MySQL/SQL Server)
+    implementation 'com.h2database:h2:2.2.224'
+}
+
+application {
+    mainClass = 'com.quanlycongnhan.MainApp'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(JavaExec).configureEach {
+    jvmArgs '-Dfile.encoding=UTF-8', '-Dsun.stdout.encoding=UTF-8', '-Dsun.stderr.encoding=UTF-8'
+    doFirst {
+        def rootPath = projectDir.absolutePath
+        def relCp = classpath.files.collect { f ->
+            f.absolutePath.startsWith(rootPath)
+                ? projectDir.toPath().relativize(f.toPath()).toString()
+                : f.absolutePath
+        }.join(File.pathSeparator)
+        classpath = files()
+        jvmArgs '-cp', relCp
+    }
+}
+
+tasks.register('runServer', JavaExec) {
+    group = 'application'
+    description = 'Chạy riêng Backend TCP/IP Server (Cổng 9090)'
+    dependsOn classes
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'com.quanlycongnhan.server.TcpServer'
+}
+
+tasks.register('runClient', JavaExec) {
+    group = 'application'
+    description = 'Chạy riêng Client kết nối TCP/IP & Giao diện HTML (Cổng 8080)'
+    dependsOn classes
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'com.quanlycongnhan.client.WebClientServer'
+}
+
+tasks.register('runDbConsole', JavaExec) {
+    group = 'application'
+    description = 'Mở giao diện quản trị CSDL H2 Web Console trên trình duyệt (Cổng 8082)'
+    dependsOn classes
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'org.h2.tools.Console'
+    args '-web', '-browser', '-webPort', '8082'
+}
