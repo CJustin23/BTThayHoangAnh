@@ -1,35 +1,29 @@
 <!-- ==================== TRANG 1 / 15 ==================== -->
 
-**BỘ GIÁO DỤC VÀ ĐÀO TẠO**  
-**TRƯỜNG ĐẠI HỌC ..................................................**  
-**KHOA CÔNG NGHỆ THÔNG TIN**  
-**-----    -----**
+**HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG**
 
 <br>
 
-## BÁO CÁO BÀI TẬP LỚN (CÁ NHÂN)
-### HỌC PHẦN: LẬP TRÌNH MẠNG
+## BÁO CÁO BÀI TẬP LỚN
+### MÔN: LẬP TRÌNH MẠNG (INT1433)
 
 <br>
 
-### ĐỀ TÀI:
-# XÂY DỰNG HỆ THỐNG QUẢN LÝ CÔNG NHÂN VÀ TỈNH/THÀNH PHỐ THEO MÔ HÌNH CLIENT – SERVER SỬ DỤNG GIAO THỨC TCP/IP
-
-**Chức năng cá nhân thực hiện:**
-1. **Thêm Tỉnh / Thành phố**
-2. **Thêm Công nhân (chọn quê quán từ danh sách)**
-3. **Hiển thị kết quả Thêm**
+# ĐỀ TÀI: XÂY DỰNG HỆ THỐNG QUẢN LÝ CÔNG NHÂN VÀ TỈNH/THÀNH PHỐ SỬ DỤNG GIAO THỨC TCP/IP
+**(Phần cá nhân: Thêm Tỉnh/TP; Thêm Công nhân chọn quê quán từ danh sách và Hiển thị kết quả Thêm)**
 
 <br>
 
-- **Giảng viên hướng dẫn:** Thầy Hoàng Anh
-- **Họ và tên sinh viên:** ............................................................
-- **Mã số sinh viên (MSSV):** ....................................................
-- **Lớp:** ....................................................................................
+| Thông tin | Chi tiết |
+| :--- | :--- |
+| **Giảng viên hướng dẫn** | : **NGUYỄN HOÀNG ANH** |
+| **Họ và tên sinh viên** | : **NGUYỄN TIẾN THÀNH** |
+| **Mã sinh viên** | : **B24DTCN283** |
+| **Lớp** | : **D24TXCN08-B** |
 
 <br>
 
-**Hà Nội, Năm 2026**
+**Hà Nội – 2026**
 
 <div style="page-break-after: always;"></div>
 
@@ -41,33 +35,34 @@
 
 # MỤC LỤC
 
-- **TRANG BÌA** .......................................................................................................... Trang 1
-- **MỤC LỤC** ............................................................................................................ Trang 2
-- **DANH MỤC TỪ VIẾT TẮT, HÌNH VẼ VÀ BẢNG BIỂU** ...................................... Trang 3
-- **LỜI MỞ ĐẦU** ....................................................................................................... Trang 4
-- **CHƯƠNG 1: GIỚI THIỆU ỨNG DỤNG VÀ PHÂN TÍCH YÊU CẦU CHỨC NĂNG** .. Trang 5
-  - 1.1. Giới thiệu tổng quan về đề tài ....................................................................... Trang 5
-  - 1.2. Cơ sở lý thuyết về lập trình mạng với giao thức TCP/IP ............................... Trang 5
-  - 1.3. Phân tích yêu cầu chức năng tổng thể của hệ thống ................................... Trang 6
-  - 1.4. Phân tích chi tiết yêu cầu chức năng Cá nhân thực hiện ............................. Trang 6
-  - 1.5. Yêu cầu phi chức năng .................................................................................. Trang 6
-- **CHƯƠNG 2: PHÂN TÍCH VÀ THIẾT KẾ HỆ THỐNG** ......................................... Trang 7
-  - 2.1. Phân tích thiết kế tổng quan ứng dụng (Use Case tổng quát) ..................... Trang 7
-  - 2.2. Thiết kế Use Case chi tiết phần Cá nhân đảm nhận ................................... Trang 7
-    - 2.2.1. Biểu đồ Use Case chi tiết cá nhân ......................................................... Trang 7
-    - 2.2.2. Đặc tả chi tiết các Use Case cá nhân (UC01, UC02, UC03) .................. Trang 8
-  - 2.3. Thiết kế Biểu đồ lớp (Class Diagram) ........................................................... Trang 9
-  - 2.4. Thiết kế Biểu đồ tuần tự (Sequence Diagram) ............................................. Trang 10
-  - 2.5. Thiết kế Cơ sở dữ liệu và Sơ đồ Thực thể Quan hệ (ERD) ......................... Trang 11
-- **CHƯƠNG 3: KIẾN TRÚC, CÀI ĐẶT, TRIỂN KHAI VÀ KẾT QUẢ THỰC HIỆN** .. Trang 12
-  - 3.1. Kiến trúc ứng dụng (Sơ đồ khối Server – Client – User) ............................. Trang 12
-  - 3.2. Thiết kế giao thức bản tin truyền thông trên nền TCP/IP ............................ Trang 12
-  - 3.3. Cài đặt và triển khai ứng dụng ..................................................................... Trang 13
-    - 3.3.1. Công cụ, môi trường và cấu trúc dự án Gradle ...................................... Trang 13
-    - 3.3.2. Hướng dẫn cài đặt và triển khai chạy ứng dụng .................................... Trang 13
-    - 3.3.3. Mã nguồn cài đặt chi tiết chức năng cá nhân ........................................ Trang 14
-  - 3.4. Các kết quả thực hiện được và Kiểm thử thực nghiệm ............................... Trang 15
-- **KẾT LUẬN VÀ TÀI LIỆU THAM KHẢO** ............................................................... Trang 15
+| Nội dung | Trang |
+| :--- | :---: |
+| **DANH MỤC TỪ VIẾT TẮT** | 3 |
+| **DANH MỤC HÌNH VẼ** | 3 |
+| **DANH MỤC BẢNG BIỂU** | 3 |
+| **CHƯƠNG 1: MỞ ĐẦU VÀ PHÂN TÍCH YÊU CẦU** | 4 |
+| 1.1. Giới thiệu bài toán và ứng dụng Quản lý Công nhân | 4 |
+| 1.2. Cơ sở lý thuyết và Công nghệ sử dụng | 4 |
+| 1.3. Phân tích yêu cầu chức năng tổng quan hệ thống | 5 |
+| 1.4. Phân tích yêu cầu chức năng Cá nhân thực hiện | 6 |
+| **CHƯƠNG 2: PHÂN TÍCH VÀ THIẾT KẾ HỆ THỐNG** | 7 |
+| 2.1. Phân tích thiết kế tổng quan ứng dụng | 7 |
+| 2.2. Phân tích thiết kế chi tiết chức năng Cá nhân đảm nhận | 7 |
+| 2.2.1. Biểu đồ Use Case và Đặc tả Use Case chi tiết | 7 |
+| 2.2.2. Biểu đồ lớp (Class Diagram) chi tiết | 9 |
+| 2.2.3. Biểu đồ tuần tự (Sequence Diagram) | 10 |
+| 2.2.4. Sơ đồ thực thể quan hệ (ERD) và Thiết kế cơ sở dữ liệu | 11 |
+| **CHƯƠNG 3: CÀI ĐẶT, TRIỂN KHAI VÀ KẾT QUẢ ỨNG DỤNG** | 12 |
+| 3.1. Kiến trúc triển khai ứng dụng theo các khối | 12 |
+| 3.2. Cài đặt và triển khai ứng dụng | 13 |
+| 3.2.1. Môi trường phát triển và cấu hình thư viện | 13 |
+| 3.2.2. Hiện thực hóa mã nguồn phần chức năng cá nhân | 13 |
+| 3.2.3. Quy trình triển khai và vận hành hệ thống | 14 |
+| 3.3. Các kết quả thực hiện được và Kiểm thử ứng dụng | 14 |
+| 3.3.1. Giao diện thực tế và các tính năng hoàn thành | 14 |
+| 3.3.2. Kịch bản kiểm thử (Test Cases) và kết quả thử nghiệm | 15 |
+| 3.3.3. Đánh giá ưu điểm, hạn chế và hướng phát triển | 15 |
+| **TÀI LIỆU THAM KHẢO** | 15 |
 
 <div style="page-break-after: always;"></div>
 
@@ -79,46 +74,52 @@
 
 # DANH MỤC TỪ VIẾT TẮT
 
-| Từ viết tắt | Tiếng Anh | Giải nghĩa tiếng Việt |
+| Từ viết tắt | Thuật ngữ tiếng Anh / Gốc | Ý nghĩa tiếng Việt |
 | :--- | :--- | :--- |
-| **BTL** | Major Assignment / Project | Bài tập lớn |
-| **CN** | Worker | Công nhân |
-| **CSDL** | Database (DB) | Cơ sở dữ liệu |
-| **DAO** | Data Access Object | Đối tượng truy cập dữ liệu |
-| **ERD** | Entity Relationship Diagram | Sơ đồ thực thể mối quan hệ |
-| **HTML/CSS/JS** | HyperText Markup Language / CSS / JS | Bộ ngôn ngữ xây dựng giao diện phía Client |
-| **JDBC** | Java Database Connectivity | Công nghệ kết nối CSDL chuẩn của Java |
-| **JSON** | JavaScript Object Notation | Định dạng trao đổi dữ liệu văn bản nhẹ |
-| **TCP/IP** | Transmission Control Protocol / IP | Bộ giao thức điều khiển truyền vận hướng kết nối |
-| **TP** | City / Province | Thành phố / Tỉnh |
+| **API** | Application Programming Interface | Giao diện lập trình ứng dụng |
+| **CRUD** | Create, Read, Update, Delete | Bốn thao tác cơ bản: Thêm, Đọc, Sửa, Xóa dữ liệu |
+| **CSDL** | Cơ sở dữ liệu (Database) | Hệ thống lưu trữ dữ liệu có cấu trúc |
+| **DAO** | Data Access Object | Mẫu thiết kế đối tượng truy xuất cơ sở dữ liệu |
+| **DOM / JS** | Document Object Model / JavaScript | Mô hình đối tượng tài liệu và ngôn ngữ kịch bản giao diện |
+| **ERD** | Entity Relationship Diagram | Sơ đồ thực thể quan hệ |
+| **FK / PK** | Foreign Key / Primary Key | Khóa ngoại / Khóa chính trong cơ sở dữ liệu quan hệ |
+| **HTML/CSS** | HyperText Markup Language / CSS | Ngôn ngữ đánh dấu và định kiểu giao diện Web Client |
+| **JDBC** | Java Database Connectivity | Chuẩn kết nối cơ sở dữ liệu trong ngôn ngữ Java |
+| **JSON** | JavaScript Object Notation | Định dạng đóng gói bản tin văn bản truyền qua Socket |
+| **JVM** | Java Virtual Machine | Máy ảo Java thực thi mã bytecode |
+| **SQL** | Structured Query Language | Ngôn ngữ truy vấn có cấu trúc |
+| **TCP/IP** | Transmission Control Protocol / Internet Protocol | Bộ giao thức điều khiển truyền vận hướng kết nối và liên mạng |
 | **UML** | Unified Modeling Language | Ngôn ngữ mô hình hóa thống nhất |
-
----
 
 # DANH MỤC HÌNH VẼ
 
-- **Hình 1.1:** Mô hình giao tiếp Socket TCP/IP giữa Client và Server trong Java (Trang 5).
-- **Hình 2.1:** Biểu đồ Use Case tổng quát của hệ thống Quản lý Công nhân (Trang 7).
-- **Hình 2.2:** Biểu đồ Use Case chi tiết phần BTL Cá nhân thực hiện (Trang 7).
-- **Hình 2.3:** Biểu đồ lớp (Class Diagram) của hệ thống Quản lý Công nhân (Trang 9).
-- **Hình 2.4:** Biểu đồ tuần tự chức năng Thêm Tỉnh/TP và Hiển thị kết quả Thêm (Trang 10).
-- **Hình 2.5:** Biểu đồ tuần tự chức năng Thêm Công nhân và Hiển thị kết quả Thêm (Trang 10).
-- **Hình 2.6:** Sơ đồ thực thể quan hệ (ERD) của Cơ sở dữ liệu Quản lý Công nhân (Trang 11).
-- **Hình 3.1:** Sơ đồ kiến trúc tổng thể các khối (User – Client – TCP Server – Database) (Trang 12).
-
----
+| Tên hình vẽ | Trang |
+| :--- | :---: |
+| **Hình 1.1:** Cơ chế giao tiếp Socket TCP/IP giữa Client và Server trong hệ thống Quản lý Công nhân | 5 |
+| **Hình 2.1:** Biểu đồ Use Case tổng quát và phân định phạm vi chức năng Cá nhân thực hiện | 7 |
+| **Hình 2.2:** Biểu đồ lớp (Class Diagram) chi tiết của hệ thống Quản lý Công nhân - TCP/IP | 9 |
+| **Hình 2.3:** Biểu đồ tuần tự chức năng Thêm Tỉnh/TP và Hiển thị kết quả Thêm | 10 |
+| **Hình 2.4:** Biểu đồ tuần tự chức năng Thêm Công nhân và Hiển thị kết quả Thêm | 11 |
+| **Hình 2.5:** Sơ đồ thực thể quan hệ (ERD) cơ sở dữ liệu `quan_ly_cong_nhan` | 11 |
+| **Hình 3.1:** Sơ đồ kiến trúc triển khai ứng dụng theo các khối (User - Client - Server - Database) | 12 |
+| **Hình 3.2:** Giao diện chạy thực tế chức năng Thêm Tỉnh/TP, Thêm Công nhân và Hiển thị kết quả Thêm | 14 |
 
 # DANH MỤC BẢNG BIỂU
 
-- **Bảng 1.1:** Phân công nhiệm vụ và phạm vi nghiệp vụ của đề tài (Trang 5).
-- **Bảng 2.1:** Đặc tả chi tiết Use Case UC01 – Thêm Tỉnh/Thành phố (Trang 8).
-- **Bảng 2.2:** Đặc tả chi tiết Use Case UC02 – Thêm Công nhân (Trang 8).
-- **Bảng 2.3:** Đặc tả chi tiết Use Case UC03 – Hiển thị kết quả Thêm (Trang 8).
-- **Bảng 2.4:** Mô tả chức năng các lớp trong kiến trúc phần mềm (Trang 9).
-- **Bảng 2.5:** Đặc tả cấu trúc bảng dữ liệu `tinh_tp` (Trang 11).
-- **Bảng 2.6:** Đặc tả cấu trúc bảng dữ liệu `cong_nhan` (Trang 11).
-- **Bảng 3.1:** Quy ước các mã lệnh (`action`) trong giao thức TCP/IP (Trang 12).
-- **Bảng 3.2:** Kết quả kiểm thử thực nghiệm (Test Cases) các chức năng (Trang 15).
+| Tên bảng biểu | Trang |
+| :--- | :---: |
+| **Bảng 1.1:** Quy ước cấu trúc bản tin giao thức ứng dụng trên nền Socket TCP/IP | 5 |
+| **Bảng 1.2:** Phân tích yêu cầu chức năng tổng quan giữa TCP Server và Client | 6 |
+| **Bảng 2.1:** Danh mục các Use Case trong phạm vi nhiệm vụ cá nhân | 7 |
+| **Bảng 2.2:** Đặc tả chi tiết Use Case UC01 – Thêm Tỉnh / Thành phố | 8 |
+| **Bảng 2.3:** Đặc tả chi tiết Use Case UC02 – Thêm Công nhân (chọn quê quán từ danh sách) | 8 |
+| **Bảng 2.4:** Đặc tả chi tiết Use Case UC03 – Hiển thị kết quả Thêm từ TCP Server | 9 |
+| **Bảng 2.5:** Mô tả vai trò và chức năng của các lớp trong Biểu đồ lớp | 9 |
+| **Bảng 2.6:** Thiết kế chi tiết bảng vật lý `tinh_tp` (Danh mục Tỉnh / Thành phố) | 11 |
+| **Bảng 2.7:** Thiết kế chi tiết bảng vật lý `cong_nhan` (Danh sách Công nhân) | 12 |
+| **Bảng 3.1:** Thông số giao tiếp mạng giữa các khối kiến trúc trong hệ thống | 12 |
+| **Bảng 3.2:** Tổng hợp đánh giá mức độ hoàn thành các chức năng theo yêu cầu đề bài | 14 |
+| **Bảng 3.3:** Bảng kết quả kiểm thử chức năng Thêm mới, Tìm kiếm và giao tiếp TCP/IP | 15 |
 
 <div style="page-break-after: always;"></div>
 
@@ -128,23 +129,22 @@
 
 <!-- ==================== TRANG 4 / 15 ==================== -->
 
-# LỜI MỞ ĐẦU
+# CHƯƠNG 1: MỞ ĐẦU VÀ PHÂN TÍCH YÊU CẦU
 
-Trong bối cảnh chuyển đổi số và hiện đại hóa công tác quản trị tại các doanh nghiệp sản xuất, khu công nghiệp hiện nay, việc quản lý thông tin nhân sự — đặc biệt là đội ngũ công nhân đến từ nhiều tỉnh, thành phố khác nhau — đòi hỏi hệ thống phần mềm phải có khả năng trao đổi dữ liệu tập trung, chính xác và đồng bộ theo thời gian thực giữa các máy trạm (Client) và máy chủ trung tâm (Server).
+## 1.1. Giới thiệu bài toán và ứng dụng Quản lý Công nhân
 
-Học phần **Lập trình mạng** cung cấp nền tảng kiến thức cốt lõi về cơ chế giao tiếp giữa các tiến trình phần mềm trên môi trường mạng máy tính. Trong đó, giao thức **TCP/IP (Transmission Control Protocol / Internet Protocol)** đóng vai trò là giao thức tầng giao vận quan trọng bậc nhất nhờ đặc tính hướng kết nối (*connection-oriented*), đảm bảo độ tin cậy cao, kiểm soát luồng và bảo toàn đúng thứ tự dữ liệu truyền tải.
+Trong hoạt động quản trị nhân sự tại các doanh nghiệp sản xuất và khu công nghiệp hiện nay, nhu cầu lưu trữ, cập nhật và tra cứu hồ sơ đội ngũ công nhân đến từ nhiều tỉnh, thành phố khác nhau một cách tập trung, nhất quán và tức thời là yêu cầu thiết yếu. Nếu dữ liệu công nhân và danh mục quê quán chỉ lưu trữ rời rạc trên từng máy trạm đơn lẻ, việc đồng bộ thông tin giữa bộ phận nhân sự và hệ thống quản lý trung tâm sẽ gặp nhiều khó khăn, dễ phát sinh trùng lặp hoặc sai lệch dữ liệu.
 
-Xuất phát từ yêu cầu thực tiễn của học phần, đề tài **"Xây dựng hệ thống Quản lý Công nhân và Tỉnh/Thành phố theo mô hình Client – Server sử dụng giao thức TCP/IP"** được thực hiện nhằm vận dụng trực tiếp kỹ thuật lập trình **Java Socket (`java.net.ServerSocket` và `java.net.Socket`)**, lập trình đa luồng (*Multi-threading*), kết nối cơ sở dữ liệu quan hệ qua **JDBC (MySQL / SQL Server / H2)** kết hợp công cụ quản lý dự án **Gradle** và giao diện **HTML/CSS/JavaScript** trực quan.
+Để giải quyết bài toán này, ứng dụng **Hệ thống Quản lý Công nhân và Tỉnh/Thành phố sử dụng giao thức TCP/IP** được xây dựng theo kiến trúc **Client – Server** hướng kết nối. Toàn bộ dữ liệu danh mục Tỉnh/TP (`tinh_tp`) và hồ sơ Công nhân (`cong_nhan`) được lưu trữ tập trung tại cơ sở dữ liệu MySQL (`quan_ly_cong_nhan`) trên máy chủ. Ứng dụng phía Server mở `ServerSocket` lắng nghe tại cổng mạng **9090** để xử lý đa luồng các yêu cầu nghiệp vụ, trong khi phía Client kết nối qua `Socket` TCP/IP và cung cấp giao diện Web HTML/CSS/JavaScript trực quan tại cổng **8080** giúp người dùng thao tác thuận tiện.
 
-Trong khuôn khổ Bài tập lớn, bên cạnh việc xây dựng hoàn chỉnh các nghiệp vụ chung của hệ thống (trả về danh sách công nhân, tìm kiếm theo quê quán / khoảng năm sinh / khoảng lương, cập nhật thông tin, xóa công nhân theo từ khóa và xóa đơn lẻ), **phần nhiệm vụ cá nhân thực hiện** tập trung phân tích, thiết kế và cài đặt sâu 3 chức năng:
-1. **Thêm Tỉnh / Thành phố mới** vào hệ thống qua kết nối TCP/IP.
-2. **Thêm Công nhân mới** (chọn quê quán từ danh sách Tỉnh/Thành phố hiện có).
-3. **Hiển thị kết quả Thêm** trực tiếp từ phản hồi của TCP Server lên giao diện người dùng.
+## 1.2. Cơ sở lý thuyết và Công nghệ sử dụng
 
-Nội dung quyển báo cáo được trình bày thành 3 chương chính:
-- **Chương 1:** Giới thiệu ứng dụng và phân tích yêu cầu chức năng.
-- **Chương 2:** Phân tích thiết kế tổng quan ứng dụng và thiết kế chi tiết chức năng cá nhân đảm nhận (Use Case, Biểu đồ lớp, Biểu đồ tuần tự, Sơ đồ thực thể quan hệ ERD).
-- **Chương 3:** Kiến trúc ứng dụng, cài đặt, triển khai và kết quả thực nghiệm.
+Hệ thống được phát triển trên nền tảng ngôn ngữ Java (JDK 21) kết hợp công cụ quản lý dự án Gradle và hệ quản trị cơ sở dữ liệu MySQL, vận dụng bốn trụ cột công nghệ cốt lõi của lập trình mạng:
+
+- **Lập trình Socket với giao thức TCP/IP (`java.net.ServerSocket` & `java.net.Socket`):** TCP là giao thức tầng giao vận hướng kết nối (*Connection-oriented*), thiết lập kênh truyền ảo tin cậy qua quá trình bắt tay ba bước (*Three-way handshake*). Phía Server sử dụng `ServerSocket(9090)` gọi phương thức `accept()` để tiếp nhận kết nối và phân phối mỗi `Socket` vào một luồng `ClientHandler` độc lập trong `ExecutorService` (`CachedThreadPool`). Phía Client sử dụng `TcpClient` khởi tạo `Socket` kết nối tới `127.0.0.1:9090`, truyền và nhận dữ liệu qua cặp luồng ký tự `PrintWriter` / `BufferedReader` mã hóa chuẩn **UTF-8**.
+- **Đóng gói bản tin JSON trên luồng TCP (Newline-delimited JSON & Gson):** Do TCP truyền dữ liệu dưới dạng luồng byte liên tục (*Byte Stream*), hệ thống xây dựng hai lớp bản tin chuẩn hóa là `model.TcpRequest` và `model.TcpResponse` kết hợp thư viện **Google Gson 2.11.0**. Mỗi yêu cầu hoặc phản hồi được tuần tự hóa thành một chuỗi JSON trên một dòng duy nhất kết thúc bởi ký tự xuống dòng `\n`, giúp `writer.println()` và `reader.readLine()` phân tách ranh giới gói tin chính xác tuyệt đối.
+- **MySQL / H2 Database và chuẩn kết nối JDBC:** Hệ quản trị cơ sở dữ liệu quan hệ MySQL lưu trữ bền vững hai bảng `tinh_tp` và `cong_nhan` với bộ mã `utf8mb4` hỗ trợ đầy đủ tiếng Việt. Tầng truy xuất dữ liệu (`com.quanlycongnhan.dao`) sử dụng `mysql-connector-j:8.4.0` (kèm cơ chế tự động dự phòng H2 MySQL Mode), đối tượng `PreparedStatement` và khối `try-with-resources` nhằm ngăn chặn triệt để lỗi **SQL Injection** và tự động giải phóng kết nối.
+- **Giao diện Frontend HTML5/CSS3/JS kết hợp Client Bridge (`WebClientServer`):** Phía Client tích hợp `HttpServer` nhẹ tại cổng **8080** phục vụ giao diện người dùng (`index.html`, `style.css`, `app.js`). Mọi thao tác trên giao diện được gửi qua Fetch API tới `WebClientServer` và chuyển tiếp trực tiếp qua `TcpClient` tới `TcpServer` bằng giao thức Socket TCP/IP.
 
 <div style="page-break-after: always;"></div>
 
@@ -154,29 +154,22 @@ Nội dung quyển báo cáo được trình bày thành 3 chương chính:
 
 <!-- ==================== TRANG 5 / 15 ==================== -->
 
-# CHƯƠNG 1: GIỚI THIỆU ỨNG DỤNG VÀ PHÂN TÍCH YÊU CẦU CHỨC NĂNG
+![Hình 1.1: Cơ chế giao tiếp Socket TCP/IP giữa Client và Server trong hệ thống Quản lý Công nhân](so_do/Hinh_1_1_Mo_Hinh_Giao_Tiep_TCP_IP.png)
+*Hình 1.1: Cơ chế giao tiếp Socket TCP/IP giữa Client và Server trong hệ thống Quản lý Công nhân*
 
-## 1.1. Giới thiệu tổng quan về đề tài
+**Bảng 1.1: Quy ước cấu trúc bản tin giao thức ứng dụng trên nền Socket TCP/IP**
 
-Hệ thống **Quản lý Công nhân** là ứng dụng mạng hoạt động theo mô hình **Client – Server** sử dụng giao thức **TCP/IP**, quản lý 2 đối tượng thực thể chính có mối quan hệ một – nhiều (`1 - N`):
-1. **Tỉnh / Thành phố (`Province` - bảng `tinh_tp`):** Lưu trữ danh mục địa phương quê quán, gồm *Mã Tỉnh/TP (`id`), Tên Tỉnh/TP (`tenTinh`), Mô tả (`moTa`)*.
-2. **Công nhân (`Worker` - bảng `cong_nhan`):** Lưu trữ hồ sơ công nhân, gồm *Mã công nhân (`id`), Họ tên (`hoTen`), Năm sinh (`namSinh`), Quê quán (`queQuanId` tham chiếu `tinh_tp`), và Mức lương (`mucLuong`)*.
+| Mã lệnh (`action`) | Chiều truyền | Nội dung đóng gói trong `TcpRequest` & Phản hồi trong `TcpResponse` |
+| :--- | :---: | :--- |
+| `ADD_PROVINCE` | Client -> Server | Gửi đối tượng `province {tenTinh, moTa}`. Server kiểm tra trùng tên, lưu vào bảng `tinh_tp` và trả về `addedProvince` vừa tạo kèm danh sách `provinces` mới. |
+| `ADD_WORKER` | Client -> Server | Gửi đối tượng `worker {hoTen, namSinh, queQuanId, mucLuong}`. Server kiểm tra hợp lệ, lưu bảng `cong_nhan` và trả về `addedWorker` kèm tên Tỉnh/TP quê quán. |
+| `GET_ALL_DATA` | Client -> Server | Yêu cầu tải dữ liệu khởi tạo. Server truy vấn và trả về đồng thời danh sách Tỉnh/TP (`provinces`) và danh sách Công nhân (`workers`). |
+| `SEARCH_WORKERS` | Client -> Server | Gửi bộ tiêu chí lọc: `queQuanId`, khoảng năm sinh (`minNamSinh`, `maxNamSinh`), khoảng lương (`minMucLuong`, `maxMucLuong`). Trả về danh sách `workers` thỏa mãn. |
+| `UPDATE / DELETE` | Client -> Server | `UPDATE_WORKER` cập nhật thông tin công nhân; `DELETE_WORKER_BY_ID` xóa 1 công nhân theo mã; `DELETE_WORKERS_BY_KEYWORD` xóa công nhân khớp từ khóa. |
 
-**Bảng 1.1: Phân công nhiệm vụ và phạm vi nghiệp vụ của đề tài**
+## 1.3. Phân tích yêu cầu chức năng tổng quan hệ thống
 
-| Chủ đề | Giao thức | Đối tượng chính | Nghiệp vụ Server chính | Nghiệp vụ Client chính | BTL Cá nhân thực hiện |
-| :--- | :---: | :--- | :--- | :--- | :--- |
-| **Quản lý Công nhân** | **TCP/IP** | **Công nhân** (Họ tên, Năm sinh, Quê quán, Mức lương) + **Tỉnh/TP** (Tên, Mô tả) | - Thêm công nhân<br>- Trả về DS công nhân<br>- Cập nhật công nhân<br>- Xóa CN theo từ khóa<br>- Quản lý Tỉnh/TP | - Thêm CN (chọn quê quán từ danh sách)<br>- Tìm kiếm theo quê quán / khoảng năm sinh / khoảng lương<br>- Xóa một công nhân | 1. **Thêm Tỉnh/TP**<br>2. **Thêm Công nhân**<br>3. **Hiển thị kết quả Thêm** |
-
-## 1.2. Cơ sở lý thuyết về lập trình mạng với giao thức TCP/IP
-
-- **Đặc trưng giao thức TCP/IP:** Thiết lập kết nối qua bắt tay 3 bước (*Three-way handshake*), truyền dữ liệu theo luồng byte tin cậy (*Reliable Byte Stream*) và kiểm soát lỗi tự động.
-- **Cơ chế hoạt động trong Java (`java.net`):**
-  - **Phía Server:** Lớp `ServerSocket` mở cổng `9090`, gọi `accept()` chờ kết nối. Mỗi kết nối của Client được giao cho một luồng `ClientHandler` trong `ExecutorService` để phục vụ đồng thời nhiều Client.
-  - **Phía Client:** Lớp `Socket` kết nối tới `127.0.0.1:9090`, gửi gói tin JSON mã hóa `UTF-8` qua `PrintWriter` và đọc phản hồi qua `BufferedReader`.
-
-![Hình 1.1: Mô hình giao tiếp Socket TCP/IP giữa Client và Server trong Java](so_do/Hinh_1_1_Mo_Hinh_Giao_Tiep_TCP_IP.png)
-*Hình 1.1: Mô hình giao tiếp Socket TCP/IP giữa Client và Server trong Java.*
+Căn cứ theo đặc tả đề tài Bài tập lớn môn Lập trình mạng, hệ thống Quản lý Công nhân phân tách rõ ràng trách nhiệm giữa hai khối thành phần TCP Server và Client như tổng hợp trong Bảng 1.2.
 
 <div style="page-break-after: always;"></div>
 
@@ -186,33 +179,25 @@ Hệ thống **Quản lý Công nhân** là ứng dụng mạng hoạt động t
 
 <!-- ==================== TRANG 6 / 15 ==================== -->
 
-## 1.3. Phân tích yêu cầu chức năng tổng thể của hệ thống
+**Bảng 1.2: Phân tích yêu cầu chức năng tổng quan giữa TCP Server và Client**
 
-- **Nghiệp vụ phía Server (`TcpServer` & `ClientHandler`):**
-  1. Mở cổng TCP `9090`, tiếp nhận kết nối và khởi tạo luồng `ClientHandler` xử lý độc lập cho từng Client.
-  2. Xử lý thêm mới Tỉnh/TP (`ADD_PROVINCE`) và trả về danh sách Tỉnh/TP (`GET_PROVINCES`).
-  3. Xử lý thêm công nhân (`ADD_WORKER`), trả về danh sách công nhân (`GET_ALL_DATA` / `GET_WORKERS`), cập nhật thông tin công nhân (`UPDATE_WORKER`), xóa công nhân theo từ khóa (`DELETE_WORKERS_BY_KEYWORD`), xóa 1 công nhân theo ID (`DELETE_WORKER_BY_ID`) và tìm kiếm công nhân (`SEARCH_WORKERS`).
-- **Nghiệp vụ phía Client (`TcpClient`, `WebClientServer` & Giao diện HTML):**
-  1. Cung cấp biểu mẫu thêm Tỉnh/TP và thêm Công nhân (chọn quê quán từ danh sách `<select>` lấy từ Server).
-  2. Hiển thị kết quả thêm mới trực tiếp từ phản hồi của TCP Server.
-  3. Tìm kiếm và hiển thị công nhân theo 3 tiêu chí: *Quê quán*, *Khoảng năm sinh*, *Khoảng lương*; cập nhật và xóa một công nhân trên bảng danh sách.
+| Thành phần | Nhóm chức năng chính | Mô tả chi tiết nghiệp vụ |
+| :--- | :--- | :--- |
+| **TCP/IP Server**<br>(`TcpServer`, `ClientHandler`) | Lắng nghe & Điều phối kết nối đa luồng | Mở `ServerSocket` tại cổng `9090`; chấp nhận kết nối `Socket` từ Client và phân phối vào `ExecutorService` ThreadPool để xử lý song song. |
+| **TCP/IP Server**<br>(`ProvinceDAO`, `WorkerDAO`) | Xử lý nghiệp vụ Công nhân & Tỉnh/TP | Thực thi các thao tác Thêm Tỉnh/TP, Thêm Công nhân, Trả về danh sách, Cập nhật thông tin, Xóa theo từ khóa và Tìm kiếm trên CSDL qua JDBC. |
+| **TCP/IP Client**<br>(Khu vực Thêm mới & Kết quả) | Thêm Tỉnh/TP, Thêm CN & Hiển thị kết quả (Phần cá nhân) | Nhập và gửi lệnh TCP thêm Tỉnh/TP mới; thêm Công nhân mới (chọn quê quán từ danh sách Tỉnh/TP); hiển thị chi tiết kết quả phản hồi từ TCP Server. |
+| **TCP/IP Client**<br>(Khu vực Tìm kiếm & Xóa) | Tìm kiếm đa tiêu chí & Xóa theo từ khóa | Tìm kiếm và hiển thị công nhân theo Quê quán, Khoảng năm sinh, Khoảng mức lương; gửi lệnh xóa công nhân theo từ khóa. |
+| **TCP/IP Client**<br>(Khu vực Bảng danh sách) | Hiển thị, Cập nhật & Xóa một công nhân | Hiển thị bảng danh sách Công nhân và Tỉnh/TP; mở hộp thoại Cập nhật thông tin công nhân hoặc Xóa một công nhân cụ thể theo mã ID. |
 
-## 1.4. Phân tích chi tiết yêu cầu chức năng Cá nhân thực hiện
+## 1.4. Phân tích yêu cầu chức năng Cá nhân thực hiện
 
-1. **Chức năng 1 – Thêm Tỉnh / Thành phố (`ADD_PROVINCE`):**
-   - *Đầu vào (Input):* `Tên Tỉnh/TP` (`tenTinh` - bắt buộc, không trùng lặp) và `Mô tả` (`moTa`).
-   - *Quy trình xử lý:* Client đóng gói `TcpRequest` (`action = "ADD_PROVINCE"`) gửi qua Socket TCP tới cổng `9090`. Server kiểm tra `tenTinh` không rỗng và gọi `ProvinceDAO.existsByName()` kiểm tra trùng lặp. Nếu hợp lệ, thực thi `INSERT INTO tinh_tp`, lấy khóa chính `id` tự tăng và trả đối tượng `Province` mới về trong trường `addedProvince` của `TcpResponse`.
-   - *Đầu ra (Output):* Bản ghi Tỉnh/TP mới được lưu vào CSDL, cập nhật lên bảng Tỉnh/TP và tự động được nạp, chọn sẵn trong ô `<select>` Quê quán của form Thêm Công nhân.
-2. **Chức năng 2 – Thêm Công nhân, chọn quê quán từ danh sách (`ADD_WORKER`):**
-   - *Đầu vào (Input):* `Họ tên` (`hoTen`), `Năm sinh` (`namSinh` từ `1940–2015`), `Quê quán` (`queQuanId` chọn từ danh sách Tỉnh/TP), `Mức lương` (`mucLuong > 0`).
-   - *Quy trình xử lý:* Client gửi lệnh `ADD_WORKER` qua Socket TCP. Server kiểm tra hợp lệ dữ liệu (`validateWorker`), gọi `WorkerDAO.addWorker()` thực hiện `INSERT INTO cong_nhan`, sau đó truy vấn lại bản ghi vừa tạo kèm phép nối `INNER JOIN tinh_tp` để lấy đầy đủ tên quê quán (`tenQueQuan`) và gắn vào trường `addedWorker` của `TcpResponse`.
-   - *Đầu ra (Output):* Công nhân mới được lưu vào CSDL và hiển thị ngay ở đầu bảng Danh sách Công nhân.
-3. **Chức năng 3 – Hiển thị kết quả Thêm (`renderAddResult`):**
-   - *Đầu vào (Input):* Gói phản hồi `TcpResponse` từ Server (`success`, `message`, `addedProvince` hoặc `addedWorker`).
-   - *Quy trình xử lý & Đầu ra:* Hàm `renderAddResult()` hiển thị trực tiếp kết quả vào khung **Hiển thị kết quả Thêm**: nếu `success == true` hiện nhãn thành công màu xanh kèm chi tiết đối tượng vừa tạo (Tên Tỉnh/TP, Mô tả hoặc Họ tên, Năm sinh, Quê quán, Mức lương VNĐ) và tô sáng dòng mới trên bảng; nếu `success == false` hiện khung cảnh báo đỏ kèm thông báo lỗi từ Server.
+Trong khuôn khổ Bài tập lớn cá nhân, tác giả chịu trách nhiệm thiết kế và cài đặt xuyên suốt từ tầng giao diện Frontend (`index.html`, `app.js`), tầng kết nối Socket Client (`TcpClient`, `WebClientServer`), tầng xử lý luồng Server (`ClientHandler`) đến tầng truy xuất cơ sở dữ liệu (`ProvinceDAO`, `WorkerDAO`) cho ba chức năng trọng tâm sau:
 
-## 1.5. Yêu cầu phi chức năng
-- Truyền thông tin cậy qua TCP/IP với bảng mã `UTF-8` hỗ trợ đầy đủ tiếng Việt; xử lý đa luồng bằng `ExecutorService`; lưu trữ bền vững trên MySQL / H2 qua JDBC `PreparedStatement` chống SQL Injection.
+- **Chức năng 1 – Thêm Tỉnh / Thành phố (`ADD_PROVINCE`):** Cho phép người dùng nhập *Tên Tỉnh/TP* và *Mô tả* để bổ sung vào danh mục quê quán. Khi gửi qua Socket TCP tới cổng `9090`, Server kiểm tra tính hợp lệ (không rỗng) và gọi `ProvinceDAO.existsByName()` kiểm tra không trùng tên Tỉnh/TP đã có (không phân biệt hoa/thường). Nếu hợp lệ, Server thực thi `INSERT INTO tinh_tp`, lấy khóa chính `id` tự sinh và trả đối tượng `Province` vừa tạo về cho Client.
+- **Chức năng 2 – Thêm Công nhân, chọn quê quán từ danh sách (`ADD_WORKER`):** Cho phép người dùng nhập *Họ tên*, *Năm sinh*, *Mức lương* và chọn *Quê quán* từ danh sách thả xuống (`<select id="queQuanId">`) được nạp động từ dữ liệu Tỉnh/TP của Server. Phía Server kiểm tra hợp lệ (`validateWorker`: họ tên không trống, năm sinh trong khoảng `1940–2015`, đã chọn mã quê quán hợp lệ, mức lương `> 0`), thực thi `INSERT INTO cong_nhan` và truy vấn `INNER JOIN tinh_tp` để trả về đối tượng `Worker` hoàn chỉnh kèm tên quê quán.
+- **Chức năng 3 – Hiển thị kết quả Thêm (`renderAddResult`):** Ngay khi `TcpClient` nhận được bản tin `TcpResponse` từ Server sau lệnh `ADD_PROVINCE` hoặc `ADD_WORKER`, giao diện tự động trích xuất trường `addedProvince` hoặc `addedWorker` để trình bày trực quan tại khung **Hiển thị kết quả Thêm** (hiển thị nhãn trạng thái Thành công/Thất bại, thông điệp từ Server và chi tiết từng thuộc tính của bản ghi vừa thêm), đồng thời cập nhật tức thì bảng danh sách và tô sáng dòng dữ liệu mới.
+
+**Yêu cầu phi chức năng:** Đảm bảo truyền tải tiếng Việt chuẩn `UTF-8` không lỗi font qua Socket; kiểm tra hợp lệ dữ liệu chặt chẽ ở cả Client và Server; đặt thời gian chờ kết nối (`connectTimeout = 3000ms`, `soTimeout = 5000ms`) và bắt ngoại lệ `IOException` để thông báo rõ ràng khi Server chưa bật mà không gây treo ứng dụng.
 
 <div style="page-break-after: always;"></div>
 
@@ -224,21 +209,30 @@ Hệ thống **Quản lý Công nhân** là ứng dụng mạng hoạt động t
 
 # CHƯƠNG 2: PHÂN TÍCH VÀ THIẾT KẾ HỆ THỐNG
 
-## 2.1. Phân tích thiết kế tổng quan ứng dụng (Use Case tổng quát)
+## 2.1. Phân tích thiết kế tổng quan ứng dụng
 
-Hệ thống có tác nhân chính là **Người dùng (Quản lý)** tương tác với 8 ca sử dụng (Use Cases) của hệ thống thông qua giao thức TCP/IP như minh họa tại Hình 2.1:
+Để đảm bảo tính mô-đun hóa, tách biệt rõ ràng giữa giao diện người dùng, tầng giao tiếp Socket TCP/IP và tầng lưu trữ dữ liệu, ứng dụng được tổ chức theo kiến trúc phân tầng 3 lớp (3-Tier Architecture) kết hợp mẫu thiết kế DAO (Data Access Object):
 
-![Hình 2.1: Biểu đồ Use Case tổng quát của hệ thống Quản lý Công nhân](so_do/Hinh_2_1_UseCase_Tong_Quat.png)
-*Hình 2.1: Biểu đồ Use Case tổng quát của hệ thống Quản lý Công nhân.*
+- **Tầng Trình diễn & Cầu nối Client (Presentation & Client Layer – thư mục `frontend` và gói `client`):** Gồm bộ giao diện `index.html`, `style.css`, `app.js` kết hợp `WebClientServer` và `TcpClient`. Tầng này tiếp nhận thao tác của người dùng, đóng gói đối tượng `TcpRequest`, mở kết nối `java.net.Socket` tới cổng `9090` của Server và cập nhật giao diện từ kết quả `TcpResponse`.
+- **Tầng Xử lý Mạng & Nghiệp vụ Server (TCP Server Layer – gói `server`):** Gồm lớp `TcpServer` quản lý `ServerSocket(9090)` cùng `ExecutorService` ThreadPool và lớp `ClientHandler` (`implements Runnable`). Tầng này chịu trách nhiệm đọc dòng bản tin JSON từ Socket, giải tuần tự hóa, kiểm tra hợp lệ nghiệp vụ và điều phối xuống các lớp DAO.
+- **Tầng Truy xuất Dữ liệu & Thực thể (Data Access & Model Layer – gói `dao` và `model`):** Gồm các lớp thực thể và bản tin (`Province`, `Worker`, `TcpRequest`, `TcpResponse`), lớp quản lý kết nối JDBC (`DatabaseConnection`) và hai lớp `ProvinceDAO`, `WorkerDAO` thực thi trực tiếp các câu lệnh SQL trên cơ sở dữ liệu.
 
-## 2.2. Thiết kế Use Case chi tiết phần Cá nhân đảm nhận
+## 2.2. Phân tích thiết kế chi tiết chức năng Cá nhân đảm nhận
 
-### 2.2.1. Biểu đồ Use Case chi tiết cá nhân
+### 2.2.1. Biểu đồ Use Case và Đặc tả Use Case chi tiết
 
-Phần nhiệm vụ cá nhân gồm 3 Use Case liên kết chặt chẽ: **UC01 (Thêm Tỉnh/TP)**, **UC02 (Thêm Công nhân)** và **UC03 (Hiển thị kết quả Thêm)** được mô hình hóa tại Hình 2.2:
+Hình 2.1 mô tả biểu đồ Use Case tổng quát của toàn hệ thống Quản lý Công nhân và khoanh vùng rõ ràng ba Use Case thuộc phạm vi nhiệm vụ cá nhân thực hiện (`UC01`, `UC02`, `UC03`).
 
-![Hình 2.2: Biểu đồ Use Case chi tiết phần BTL Cá nhân thực hiện](so_do/Hinh_2_2_UseCase_Chi_Tiet_Ca_Nhan.png)
-*Hình 2.2: Biểu đồ Use Case chi tiết phần BTL Cá nhân thực hiện.*
+![Hình 2.1: Biểu đồ Use Case tổng quát và phân định phạm vi chức năng Cá nhân thực hiện](so_do/Hinh_2_1_UseCase_Tong_Quat.png)
+*Hình 2.1: Biểu đồ Use Case tổng quát và phân định phạm vi chức năng Cá nhân thực hiện*
+
+**Bảng 2.1: Danh mục các Use Case trong phạm vi nhiệm vụ cá nhân**
+
+| Mã UC | Tên Use Case | Tác nhân chính | Mô tả tóm tắt |
+| :---: | :--- | :--- | :--- |
+| **UC01** | Thêm Tỉnh / Thành phố | Người dùng (Client User) | Nhập tên Tỉnh/TP và mô tả, gửi lệnh `ADD_PROVINCE` qua Socket TCP tới Server để kiểm tra trùng và lưu vào bảng `tinh_tp`. |
+| **UC02** | Thêm Công nhân (chọn quê quán từ danh sách) | Người dùng (Client User) | Nhập họ tên, năm sinh, mức lương và chọn quê quán từ danh sách Tỉnh/TP, gửi lệnh `ADD_WORKER` qua Socket TCP để lưu bảng `cong_nhan`. |
+| **UC03** | Hiển thị kết quả Thêm từ TCP Server | Người dùng (Client User) | Trích xuất đối tượng vừa thêm từ gói phản hồi `TcpResponse` để hiển thị chi tiết trạng thái và thông tin bản ghi lên khung Kết quả Thêm. |
 
 <div style="page-break-after: always;"></div>
 
@@ -248,37 +242,27 @@ Phần nhiệm vụ cá nhân gồm 3 Use Case liên kết chặt chẽ: **UC01 
 
 <!-- ==================== TRANG 8 / 15 ==================== -->
 
-### 2.2.2. Đặc tả chi tiết các Use Case cá nhân (UC01, UC02, UC03)
+**Bảng 2.2: Đặc tả chi tiết Use Case UC01 – Thêm Tỉnh / Thành phố**
 
-**Bảng 2.1: Đặc tả chi tiết Use Case UC01 – Thêm Tỉnh/Thành phố**
-
-| Mục | Nội dung mô tả |
+| Thuộc tính | Nội dung đặc tả chi tiết |
 | :--- | :--- |
-| **Mã & Tên Use Case** | **UC01 – Thêm Tỉnh / Thành phố** &nbsp;|&nbsp; **Tác nhân:** Người dùng (Cán bộ quản lý) |
-| **Mô tả tóm tắt** | Cho phép thêm mới một Tỉnh/TP (Tên Tỉnh/TP, Mô tả) vào CSDL thông qua kết nối Socket TCP/IP. |
-| **Điều kiện tiên quyết** | `TcpServer` đang lắng nghe tại cổng `9090`; kết nối JDBC sẵn sàng; giao diện mở tại cổng `8080`. |
-| **Điều kiện sau** | Tỉnh/TP mới được lưu vào bảng `tinh_tp`, hiển thị trên bảng Tỉnh/TP, ô chọn Quê quán và khung Kết quả Thêm. |
-| **Luồng sự kiện chính** | 1. Người dùng nhập *Tên Tỉnh/TP* và *Mô tả* vào form "Thêm Tỉnh/TP" rồi nhấn nút **"Thêm Tỉnh/TP"**.<br>2. Hàm `handleAddProvince()` đóng gói `{action: "ADD_PROVINCE", province: {tenTinh, moTa}}` chuyển xuống `TcpClient`.<br>3. `TcpClient` mở `Socket(127.0.0.1, 9090)` và truyền chuỗi JSON sang `TcpServer`.<br>4. `ClientHandler` kiểm tra `tenTinh` không rỗng và chưa trùng tên (`existsByName`).<br>5. `ProvinceDAO.addProvince()` thực thi `INSERT INTO tinh_tp (ten_tinh, mo_ta) VALUES (?, ?)` và lấy lại bản ghi vừa tạo.<br>6. Server trả về `TcpResponse` (`success=true`, `addedProvince`, danh sách `provinces` mới).<br>7. Client cập nhật bảng Tỉnh/TP, ô chọn Quê quán và kích hoạt **UC03** hiển thị kết quả thêm. |
-| **Luồng ngoại lệ** | - **4a. Tên Tỉnh/TP trống hoặc đã tồn tại:** Server trả về `success=false` kèm thông báo lỗi; UC03 hiển thị lỗi màu đỏ. |
+| **Mã & Tên Use Case** | **UC01 – Thêm Tỉnh / Thành phố** |
+| **Tác nhân** | Người dùng ứng dụng Client (Client User) |
+| **Tiền điều kiện** | TCP Server (`TcpServer`) đang lắng nghe tại cổng `9090`; kết nối JDBC tới CSDL sẵn sàng; giao diện Client đang mở tại cổng `8080`. |
+| **Luồng sự kiện chính** | 1. Tại khung `'Thêm Tỉnh / TP'`, người dùng nhập Tên Tỉnh/TP vào ô `tenTinh` và Mô tả vào ô `moTaTinh`.<br>2. Người dùng nhấn nút `'Thêm Tỉnh/TP'`.<br>3. Hàm `handleAddProvince()` trong `app.js` đóng gói bản tin JSON `{action: 'ADD_PROVINCE', province: {tenTinh, moTa}}` gửi xuống `WebClientServer`.<br>4. `TcpClient` mở kết nối `java.net.Socket` tới `127.0.0.1:9090` và truyền chuỗi JSON qua `PrintWriter.println()`.<br>5. `ClientHandler` trên Server đọc bản tin, gọi `ProvinceDAO.existsByName()` kiểm tra tên Tỉnh/TP chưa tồn tại, sau đó gọi `ProvinceDAO.addProvince()` thực thi `INSERT INTO tinh_tp (ten_tinh, mo_ta) VALUES (?, ?)`.<br>6. Server lấy khóa chính `id` tự tăng, đóng gói đối tượng `Province` mới vào trường `addedProvince` của `TcpResponse` và gửi trả về Client; Client cập nhật bảng Tỉnh/TP, nạp vào ô chọn Quê quán và kích hoạt **UC03**. |
+| **Luồng rẽ nhánh / Ngoại lệ** | • Nếu Tên Tỉnh/TP để trống: Server trả về `TcpResponse {success: false, message: 'Tên Tỉnh/TP không được để trống!'}`.<br>• Nếu Tên Tỉnh/TP đã tồn tại trong CSDL: `existsByName()` trả về `true` -> Server trả về `{success: false, message: 'Tỉnh/TP đã tồn tại!'}`.<br>• Nếu mất kết nối TCP Server: `TcpClient` bắt `IOException` và trả về thông báo lỗi kết nối mạng. |
+| **Hậu điều kiện** | Bản ghi Tỉnh/TP mới được lưu bền vững vào bảng `tinh_tp`, xuất hiện trên bảng danh sách và được chọn sẵn trong dropdown Quê quán. |
 
-**Bảng 2.2: Đặc tả chi tiết Use Case UC02 – Thêm Công nhân (chọn quê quán từ danh sách)**
+**Bảng 2.3: Đặc tả chi tiết Use Case UC02 – Thêm Công nhân (chọn quê quán từ danh sách)**
 
-| Mục | Nội dung mô tả |
+| Thuộc tính | Nội dung đặc tả chi tiết |
 | :--- | :--- |
-| **Mã & Tên Use Case** | **UC02 – Thêm Công nhân (chọn quê quán từ danh sách)** &nbsp;|&nbsp; **Tác nhân:** Người dùng |
-| **Mô tả tóm tắt** | Cho phép nhập thông tin công nhân mới, chọn quê quán từ danh sách Tỉnh/TP và lưu vào CSDL qua TCP/IP. |
-| **Điều kiện tiên quyết** | Danh sách Tỉnh/TP từ Server đã được nạp vào ô `<select id="queQuanId">`. |
-| **Điều kiện sau** | Công nhân mới được lưu vào bảng `cong_nhan`, hiển thị ở đầu bảng Công nhân và tại khung Kết quả Thêm. |
-| **Luồng sự kiện chính** | 1. Người dùng nhập *Họ tên, Năm sinh, Mức lương*, chọn *Quê quán* từ danh sách và bấm **"Thêm Công nhân"**.<br>2. Hàm `handleAddWorker()` đóng gói `{action: "ADD_WORKER", worker: {hoTen, namSinh, queQuanId, mucLuong}}`.<br>3. `TcpClient` mở kết nối Socket tới cổng `9090` và gửi chuỗi JSON cho `TcpServer`.<br>4. `ClientHandler` gọi `validateWorker(w)` kiểm tra hợp lệ các trường dữ liệu.<br>5. `WorkerDAO.addWorker(w)` thực thi `INSERT INTO cong_nhan` và gọi `getWorkerById(newId)` (có `INNER JOIN tinh_tp`) để lấy tên quê quán.<br>6. Server trả về `TcpResponse` (`success=true`, `addedWorker`, danh sách `workers` mới).<br>7. Client cập nhật bảng Công nhân và kích hoạt **UC03** hiển thị kết quả thêm. |
-| **Luồng ngoại lệ** | - **4a. Dữ liệu không hợp lệ** (Họ tên rỗng, Năm sinh ngoài `1940–2015`, chưa chọn Quê quán, Lương `<= 0`): Server trả về `success=false` kèm nguyên nhân lỗi cụ thể. |
-
-**Bảng 2.3: Đặc tả chi tiết Use Case UC03 – Hiển thị kết quả Thêm**
-
-| Mục | Nội dung mô tả |
-| :--- | :--- |
-| **Mã & Tên Use Case** | **UC03 – Hiển thị kết quả Thêm** &nbsp;|&nbsp; **Tác nhân:** Hệ thống Client & Người dùng |
-| **Điều kiện tiên quyết** | Client vừa nhận được đối tượng phản hồi `TcpResponse` từ lệnh `ADD_PROVINCE` hoặc `ADD_WORKER`. |
-| **Luồng sự kiện chính** | 1. Hàm `renderAddResult(type, success, message, entity)` đọc dữ liệu từ `TcpResponse`.<br>2. Nếu `type == 'PROVINCE'`, hiển thị nhãn trạng thái, thông báo Server, *Tên Tỉnh/TP* và *Mô tả*.<br>3. Nếu `type == 'WORKER'`, hiển thị nhãn trạng thái, thông báo Server, *Họ tên, Năm sinh, Quê quán, Mức lương (VNĐ)*.<br>4. Đánh dấu nổi bật (`highlight-new`) dòng vừa thêm trên bảng danh sách. |
+| **Mã & Tên Use Case** | **UC02 – Thêm Công nhân (chọn quê quán từ danh sách)** |
+| **Tác nhân** | Người dùng ứng dụng Client (Client User) |
+| **Tiền điều kiện** | TCP Server đang hoạt động; danh sách Tỉnh/TP đã được nạp từ Server vào ô chọn `<select id="queQuanId">`. |
+| **Luồng sự kiện chính** | 1. Tại khung `'Thêm Công nhân'`, người dùng nhập Họ tên (`hoTen`), Năm sinh (`namSinh`), Mức lương (`mucLuong`) và chọn một Tỉnh/TP trong danh sách thả xuống Quê quán (`queQuanId`).<br>2. Người dùng nhấn nút `'Thêm Công nhân'`.<br>3. Hàm `handleAddWorker()` thu thập dữ liệu, đóng gói bản tin `{action: 'ADD_WORKER', worker: {hoTen, namSinh, queQuanId, mucLuong}}`.<br>4. `TcpClient` mở kết nối Socket TCP tới cổng `9090` và gửi dòng JSON yêu cầu sang `TcpServer`.<br>5. `ClientHandler` gọi `validateWorker()` kiểm tra hợp lệ, sau đó gọi `WorkerDAO.addWorker()` thực thi `INSERT INTO cong_nhan (ho_ten, nam_sinh, que_quan_id, muc_luong) VALUES (?, ?, ?, ?)`.<br>6. `WorkerDAO` lấy mã `id` vừa sinh và gọi `getWorkerById(newId)` thực hiện `INNER JOIN tinh_tp` để lấy tên quê quán (`tenQueQuan`), đóng gói vào `addedWorker` của `TcpResponse` gửi về Client để cập nhật bảng và kích hoạt **UC03**. |
+| **Luồng rẽ nhánh / Ngoại lệ** | • Họ tên để trống hoặc chưa chọn Quê quán (`queQuanId <= 0`): Server trả về thông báo lỗi tương ứng và dừng lưu CSDL.<br>• Năm sinh nằm ngoài khoảng hợp lệ (`1940 – 2015`) hoặc Mức lương `<= 0`: `validateWorker()` trả về lỗi và hiển thị cảnh báo đỏ tại khung Kết quả Thêm. |
+| **Hậu điều kiện** | Hồ sơ công nhân mới được lưu vào bảng `cong_nhan` và hiển thị ngay ở dòng đầu tiên của bảng Danh sách Công nhân. |
 
 <div style="page-break-after: always;"></div>
 
@@ -288,28 +272,36 @@ Phần nhiệm vụ cá nhân gồm 3 Use Case liên kết chặt chẽ: **UC01 
 
 <!-- ==================== TRANG 9 / 15 ==================== -->
 
-## 2.3. Thiết kế Biểu đồ lớp (Class Diagram)
+**Bảng 2.4: Đặc tả chi tiết Use Case UC03 – Hiển thị kết quả Thêm từ TCP Server**
 
-Hệ thống được tổ chức thành 4 gói (`model`, `dao`, `server`, `client`). Hình 2.3 và Bảng 2.4 trình bày sơ đồ lớp và chức năng của từng lớp trong chương trình:
+| Thuộc tính | Nội dung đặc tả chi tiết |
+| :--- | :--- |
+| **Mã & Tên Use Case** | **UC03 – Hiển thị kết quả Thêm từ TCP Server** |
+| **Tác nhân** | Người dùng ứng dụng Client (được kích hoạt tự động sau UC01 và UC02) |
+| **Tiền điều kiện** | Client vừa nhận được đối tượng phản hồi `TcpResponse` từ TCP Server sau khi gửi lệnh `ADD_PROVINCE` hoặc `ADD_WORKER`. |
+| **Luồng sự kiện chính** | 1. Sau khi nhận phản hồi JSON từ `TcpClient`, hàm `handleAddProvince()` hoặc `handleAddWorker()` gọi hàm `renderAddResult(type, success, message, entity)`.<br>2. Hệ thống cập nhật khung hiển thị `#addResultContainer` theo trạng thái `success` (khung xanh lá nếu thành công, khung đỏ nếu thất bại).<br>3. Nếu `type == 'PROVINCE'`, khung kết quả hiển thị nhãn `'Thêm Tỉnh/TP thành công'`, thông điệp từ Server, Tên Tỉnh/TP và Mô tả của đối tượng `addedProvince`.<br>4. Nếu `type == 'WORKER'`, khung kết quả hiển thị nhãn `'Thêm Công nhân thành công'`, thông điệp từ Server, Họ tên, Năm sinh, Quê quán (`tenQueQuan`) và Mức lương định dạng tiền tệ VNĐ của đối tượng `addedWorker`.<br>5. Đồng thời hệ thống gán lớp CSS `highlight-new` tô sáng dòng vừa thêm trên bảng danh sách và hiển thị thông báo Toast. |
+| **Luồng rẽ nhánh / Ngoại lệ** | • Khi thao tác thêm mới bị Server từ chối (`success == false`): Khung `#addResultContainer` chuyển sang giao diện cảnh báo lỗi (`.error`) và hiển thị rõ thông điệp nguyên nhân lỗi từ Server. |
+| **Hậu điều kiện** | Người dùng quan sát trực quan toàn bộ thông tin bản ghi thực tế vừa được TCP Server ghi nhận vào cơ sở dữ liệu. |
 
-![Hình 2.3: Biểu đồ lớp (Class Diagram) của hệ thống Quản lý Công nhân](so_do/Hinh_2_3_Bieu_Do_Lop_Class_Diagram.png)
-*Hình 2.3: Biểu đồ lớp (Class Diagram) của hệ thống Quản lý Công nhân.*
+### 2.2.2. Biểu đồ lớp (Class Diagram) chi tiết
 
-**Bảng 2.4: Mô tả chức năng các lớp trong kiến trúc phần mềm**
+Biểu đồ lớp trong Hình 2.2 thể hiện đầy đủ 12 lớp cấu thành nên hệ thống Quản lý Công nhân theo giao thức TCP/IP, bao gồm các thuộc tính, phương thức chính và mối quan hệ giữa các tầng.
 
-| STT | Tên lớp | Thuộc gói (Package) | Vai trò và Trách nhiệm chính |
-| :---: | :--- | :--- | :--- |
-| 1 | `Province` | `com.quanlycongnhan.model` | Lớp thực thể biểu diễn đối tượng **Tỉnh/TP** (`id`, `tenTinh`, `moTa`). |
-| 2 | `Worker` | `com.quanlycongnhan.model` | Lớp thực thể biểu diễn đối tượng **Công nhân** (`id`, `hoTen`, `namSinh`, `queQuanId`, `tenQueQuan`, `mucLuong`). |
-| 3 | `TcpRequest` | `com.quanlycongnhan.model` | Đóng gói bản tin yêu cầu từ Client gửi lên TCP Server (`action`, `province`, `worker`, tiêu chí lọc). |
-| 4 | `TcpResponse` | `com.quanlycongnhan.model` | Đóng gói bản tin phản hồi từ TCP Server trả về Client (`success`, `message`, `addedProvince`, `addedWorker`, danh sách). |
-| 5 | `DatabaseConnection` | `com.quanlycongnhan.dao` | Đọc `db.properties`, quản lý kết nối JDBC tới MySQL / SQL Server / H2 và tự động tạo bảng. |
-| 6 | `ProvinceDAO` | `com.quanlycongnhan.dao` | Thực thi truy vấn SQL trên bảng `tinh_tp`: lấy danh sách, kiểm tra trùng tên và **Thêm Tỉnh/TP (`addProvince`)**. |
-| 7 | `WorkerDAO` | `com.quanlycongnhan.dao` | Thực thi truy vấn SQL trên bảng `cong_nhan`: **Thêm công nhân (`addWorker`)**, lấy danh sách, sửa, xóa, tìm kiếm. |
-| 8 | `TcpServer` | `com.quanlycongnhan.server` | Mở `ServerSocket` tại cổng `9090`, lắng nghe kết nối và phân phối vào `ExecutorService`. |
-| 9 | `ClientHandler` | `com.quanlycongnhan.server` | Luồng xử lý từng kết nối Client: giải mã `TcpRequest`, gọi DAO tương ứng và gửi trả `TcpResponse`. |
-| 10 | `TcpClient` | `com.quanlycongnhan.client` | Mở `java.net.Socket` kết nối tới `127.0.0.1:9090`, truyền `TcpRequest` và nhận về `TcpResponse`. |
-| 11 | `WebClientServer` | `com.quanlycongnhan.client` | Phục vụ giao diện HTML/CSS/JS tại cổng `8080` và chuyển tiếp yêu cầu của người dùng qua `TcpClient`. |
+![Hình 2.2: Biểu đồ lớp (Class Diagram) chi tiết của hệ thống Quản lý Công nhân - TCP/IP](so_do/Hinh_2_3_Bieu_Do_Lop_Class_Diagram.png)
+*Hình 2.2: Biểu đồ lớp (Class Diagram) chi tiết của hệ thống Quản lý Công nhân - TCP/IP*
+
+**Bảng 2.5: Mô tả vai trò và chức năng của các lớp trong Biểu đồ lớp**
+
+| Tên Lớp | Gói (Package) | Vai trò kiến trúc & Chức năng chính |
+| :--- | :--- | :--- |
+| `Province` | `com.quanlycongnhan.model` | Lớp thực thể Tỉnh/TP (`id`, `tenTinh`, `moTa`), cài đặt `Serializable`. |
+| `Worker` | `com.quanlycongnhan.model` | Lớp thực thể Công nhân (`id`, `hoTen`, `namSinh`, `queQuanId`, `tenQueQuan`, `mucLuong`), cài đặt `Serializable`. |
+| `TcpRequest` / `TcpResponse` | `com.quanlycongnhan.model` | Đóng gói bản tin yêu cầu từ Client và bản tin phản hồi từ TCP Server qua Socket. |
+| `DatabaseConnection` | `com.quanlycongnhan.dao` | Quản lý cấu hình `db.properties`, kết nối JDBC tới MySQL / H2 và tự động khởi tạo bảng. |
+| `ProvinceDAO` | `com.quanlycongnhan.dao` | Thực thi truy vấn JDBC trên bảng `tinh_tp`: `getAllProvinces()`, `existsByName()`, `addProvince()`. |
+| `WorkerDAO` | `com.quanlycongnhan.dao` | Thực thi truy vấn JDBC trên bảng `cong_nhan`: `addWorker()`, `getAllWorkers()`, `updateWorker()`, `delete...`, `searchWorkers()`. |
+| `TcpServer` & `ClientHandler` | `com.quanlycongnhan.server` | Mở `ServerSocket(9090)`, phân phối kết nối vào `ExecutorService` và xử lý đa luồng các lệnh `action`. |
+| `TcpClient` & `WebClientServer` | `com.quanlycongnhan.client` | Mở `Socket` kết nối tới `127.0.0.1:9090` và phục vụ giao diện HTML/CSS/JS tại cổng `8080`. |
 
 <div style="page-break-after: always;"></div>
 
@@ -319,21 +311,19 @@ Hệ thống được tổ chức thành 4 gói (`model`, `dao`, `server`, `clie
 
 <!-- ==================== TRANG 10 / 15 ==================== -->
 
-## 2.4. Thiết kế Biểu đồ tuần tự (Sequence Diagram)
+### 2.2.3. Biểu đồ tuần tự (Sequence Diagram)
 
-### 2.4.1. Biểu đồ tuần tự chức năng Thêm Tỉnh/TP và Hiển thị kết quả Thêm
+Để làm rõ trình tự trao đổi bản tin theo thời gian giữa giao diện người dùng, tầng Socket Client, tầng Socket Server và cơ sở dữ liệu, Hình 2.3 và Hình 2.4 lần lượt mô tả biểu đồ tuần tự cho hai nghiệp vụ thêm mới và hiển thị kết quả của phần cá nhân.
 
-Hình 2.4 mô tả trình tự bản tin giữa Người dùng, Giao diện HTML/JS, `TcpClient`, `TcpServer (ClientHandler)`, `ProvinceDAO` và CSDL khi thực hiện thêm mới một Tỉnh/TP:
+![Hình 2.3: Biểu đồ tuần tự chức năng Thêm Tỉnh/TP và Hiển thị kết quả Thêm](so_do/Hinh_2_4_Sequence_Them_Tinh_TP.png)
+*Hình 2.3: Biểu đồ tuần tự chức năng Thêm Tỉnh/TP và Hiển thị kết quả Thêm*
 
-![Hình 2.4: Biểu đồ tuần tự chức năng Thêm Tỉnh/TP và Hiển thị kết quả Thêm](so_do/Hinh_2_4_Sequence_Them_Tinh_TP.png)
-*Hình 2.4: Biểu đồ tuần tự chức năng Thêm Tỉnh/TP và Hiển thị kết quả Thêm.*
+**Phân tích luồng tuần tự Hình 2.3:** Khi người dùng nhập tên Tỉnh/TP, mô tả và nhấn nút **Thêm Tỉnh/TP**, hàm `handleAddProvince()` gửi yêu cầu tới `TcpClient.sendRequest()`. `TcpClient` mở kết nối `Socket` tới cổng **9090**, chuyển đối tượng `TcpRequest` thành chuỗi JSON một dòng và bắn qua `OutputStream`. Phía Server, `ClientHandler` đọc dòng JSON, gọi `ProvinceDAO.existsByName()` kiểm tra trùng tên, sau đó gọi `ProvinceDAO.addProvince()` thực thi `INSERT INTO tinh_tp` và lấy khóa tự tăng `RETURN_GENERATED_KEYS`. Bản ghi `Province` vừa tạo được gắn vào `addedProvince` của `TcpResponse`, truyền ngược qua Socket về Client để cập nhật bảng và gọi `renderAddResult('PROVINCE', ...)` hiển thị kết quả.
 
-### 2.4.2. Biểu đồ tuần tự chức năng Thêm Công nhân và Hiển thị kết quả Thêm
+![Hình 2.4: Biểu đồ tuần tự chức năng Thêm Công nhân và Hiển thị kết quả Thêm](so_do/Hinh_2_5_Sequence_Them_Cong_Nhan.png)
+*Hình 2.4: Biểu đồ tuần tự chức năng Thêm Công nhân và Hiển thị kết quả Thêm*
 
-Hình 2.5 mô tả trình tự bản tin khi Người dùng chọn quê quán từ danh sách, gửi lệnh thêm mới một Công nhân qua Socket TCP/IP và nhận kết quả hiển thị:
-
-![Hình 2.5: Biểu đồ tuần tự chức năng Thêm Công nhân và Hiển thị kết quả Thêm](so_do/Hinh_2_5_Sequence_Them_Cong_Nhan.png)
-*Hình 2.5: Biểu đồ tuần tự chức năng Thêm Công nhân và Hiển thị kết quả Thêm.*
+**Phân tích luồng tuần tự Hình 2.4:** Người dùng nhập họ tên, năm sinh, mức lương và chọn một Tỉnh/TP từ danh sách thả xuống Quê quán rồi nhấn nút **Thêm Công nhân**. `TcpClient` mở kết nối Socket TCP tới cổng **9090** và truyền gói tin `ADD_WORKER`. Tại Server, `ClientHandler.validateWorker()` kiểm tra tính hợp lệ của dữ liệu trước khi gọi `WorkerDAO.addWorker()`. Sau khi chèn bản ghi vào bảng `cong_nhan`, `WorkerDAO` gọi `getWorkerById(newId)` thực hiện phép nối `INNER JOIN tinh_tp` để lấy tên quê quán tương ứng, trả đối tượng `Worker` đầy đủ về Client trong trường `addedWorker` để cập nhật bảng danh sách và hiển thị lên khung **Hiển thị kết quả Thêm**.
 
 <div style="page-break-after: always;"></div>
 
@@ -343,34 +333,49 @@ Hình 2.5 mô tả trình tự bản tin khi Người dùng chọn quê quán t�
 
 <!-- ==================== TRANG 11 / 15 ==================== -->
 
-## 2.5. Thiết kế Cơ sở dữ liệu và Sơ đồ Thực thể Quan hệ (ERD)
+### 2.2.4. Sơ đồ thực thể quan hệ (ERD) và Thiết kế cơ sở dữ liệu
 
-### 2.5.1. Sơ đồ thực thể quan hệ (ERD)
+Cơ sở dữ liệu của hệ thống có tên là `quan_ly_cong_nhan`, sử dụng bảng mã `utf8mb4_unicode_ci` nhằm lưu trữ chính xác dữ liệu tiếng Việt. Hệ thống gồm hai thực thể chính có mối quan hệ **một – nhiều (1 – N)**: một Tỉnh/Thành phố (`tinh_tp`) là quê quán của nhiều Công nhân (`cong_nhan`), trong khi mỗi công nhân thuộc về một Tỉnh/Thành phố quê quán xác định.
 
-Cơ sở dữ liệu `quan_ly_cong_nhan` gồm 2 thực thể là **TỈNH/THÀNH PHỐ (`TINH_TP`)** và **CÔNG NHÂN (`CONG_NHAN`)** có mối quan hệ **Một – Nhiều (`1 : 0..N`)**: một Tỉnh/TP là quê quán của nhiều Công nhân, và mỗi Công nhân có một khóa ngoại `que_quan_id` tham chiếu tới `tinh_tp(id)`.
+![Hình 2.5: Sơ đồ thực thể quan hệ (ERD) cơ sở dữ liệu quan_ly_cong_nhan](so_do/Hinh_2_6_So_Do_ERD_CSDL.png)
+*Hình 2.5: Sơ đồ thực thể quan hệ (ERD) cơ sở dữ liệu quan_ly_cong_nhan*
 
-![Hình 2.6: Sơ đồ thực thể quan hệ (ERD) của Cơ sở dữ liệu Quản lý Công nhân](so_do/Hinh_2_6_So_Do_ERD_CSDL.png)
-*Hình 2.6: Sơ đồ thực thể quan hệ (ERD) của Cơ sở dữ liệu Quản lý Công nhân.*
+**Bảng 2.6: Thiết kế chi tiết bảng vật lý `tinh_tp` (Danh mục Tỉnh / Thành phố)**
 
-### 2.5.2. Đặc tả chi tiết các bảng dữ liệu vật lý
+| Tên cột | Kiểu dữ liệu | Ràng buộc | Mô tả ý nghĩa |
+| :--- | :--- | :--- | :--- |
+| `id` | `INT` | `PRIMARY KEY, AUTO_INCREMENT` | Mã định danh duy nhất của Tỉnh/Thành phố, tự động tăng khi thêm mới. |
+| `ten_tinh` | `VARCHAR(120)` | `NOT NULL, UNIQUE` | Tên Tỉnh hoặc Thành phố (ví dụ: Hà Nội, Hải Phòng, Bắc Ninh, Quảng Ninh). |
+| `mo_ta` | `VARCHAR(500)` | `DEFAULT ''` | Mô tả đặc điểm kinh tế, khu công nghiệp hoặc vị trí địa lý của Tỉnh/TP. |
 
-**Bảng 2.5: Đặc tả cấu trúc bảng dữ liệu `tinh_tp` (Tỉnh/Thành phố)**
+**Bảng 2.7: Thiết kế chi tiết bảng vật lý `cong_nhan` (Danh sách Công nhân)**
 
-| STT | Tên trường (Column) | Kiểu dữ liệu | Ràng buộc (Constraints) | Mô tả chi tiết |
-| :---: | :--- | :--- | :--- | :--- |
-| 1 | `id` | `INT` | `PRIMARY KEY`, `AUTO_INCREMENT` | Mã định danh duy nhất của Tỉnh/TP, tự động tăng. |
-| 2 | `ten_tinh` | `VARCHAR(120)` | `NOT NULL`, `UNIQUE` | Tên Tỉnh hoặc Thành phố (không trùng lặp). |
-| 3 | `mo_ta` | `VARCHAR(500)` | `DEFAULT ''` | Thông tin mô tả đặc điểm kinh tế, địa lý của Tỉnh/TP. |
+| Tên cột | Kiểu dữ liệu | Ràng buộc | Mô tả ý nghĩa |
+| :--- | :--- | :--- | :--- |
+| `id` | `INT` | `PRIMARY KEY, AUTO_INCREMENT` | Mã định danh duy nhất của công nhân, tự động tăng khi thêm mới. |
+| `ho_ten` | `VARCHAR(150)` | `NOT NULL` | Họ và tên đầy đủ của công nhân. |
+| `nam_sinh` | `INT` | `NOT NULL` | Năm sinh của công nhân (kiểm tra hợp lệ trong khoảng `1940 – 2015`). |
+| `que_quan_id` | `INT` | `NOT NULL, FOREIGN KEY (tinh_tp.id)` | Khóa ngoại tham chiếu tới cột `id` của bảng `tinh_tp` (`ON UPDATE CASCADE`). |
+| `muc_luong` | `DOUBLE` | `NOT NULL` | Mức lương hiện tại của công nhân (đơn vị: VNĐ, lớn hơn `0`). |
 
-**Bảng 2.6: Đặc tả cấu trúc bảng dữ liệu `cong_nhan` (Công nhân)**
-
-| STT | Tên trường (Column) | Kiểu dữ liệu | Ràng buộc (Constraints) | Mô tả chi tiết |
-| :---: | :--- | :--- | :--- | :--- |
-| 1 | `id` | `INT` | `PRIMARY KEY`, `AUTO_INCREMENT` | Mã định danh duy nhất của Công nhân, tự động tăng. |
-| 2 | `ho_ten` | `VARCHAR(150)` | `NOT NULL` | Họ và tên đầy đủ của công nhân. |
-| 3 | `nam_sinh` | `INT` | `NOT NULL` | Năm sinh của công nhân (trong khoảng `1940–2015`). |
-| 4 | `que_quan_id` | `INT` | `NOT NULL`, `FOREIGN KEY REFERENCES tinh_tp(id)` | Khóa ngoại tham chiếu tới cột `id` của bảng `tinh_tp`. |
-| 5 | `muc_luong` | `DOUBLE` | `NOT NULL` | Mức lương hiện tại của công nhân (đơn vị: VNĐ). |
+**Trích đoạn mã nguồn: `database/schema_mysql.sql` – Kịch bản khởi tạo cấu trúc bảng và khóa ngoại**
+```sql
+CREATE DATABASE IF NOT EXISTS quan_ly_cong_nhan CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE quan_ly_cong_nhan;
+CREATE TABLE IF NOT EXISTS tinh_tp (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ten_tinh VARCHAR(120) NOT NULL UNIQUE,
+    mo_ta VARCHAR(500) DEFAULT ''
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE TABLE IF NOT EXISTS cong_nhan (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ho_ten VARCHAR(150) NOT NULL,
+    nam_sinh INT NOT NULL,
+    que_quan_id INT NOT NULL,
+    muc_luong DOUBLE NOT NULL,
+    CONSTRAINT fk_cong_nhan_tinh FOREIGN KEY (que_quan_id) REFERENCES tinh_tp(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
 
 <div style="page-break-after: always;"></div>
 
@@ -380,34 +385,27 @@ Cơ sở dữ liệu `quan_ly_cong_nhan` gồm 2 thực thể là **TỈNH/THÀN
 
 <!-- ==================== TRANG 12 / 15 ==================== -->
 
-# CHƯƠNG 3: KIẾN TRÚC, CÀI ĐẶT, TRIỂN KHAI VÀ KẾT QUẢ THỰC HIỆN
+# CHƯƠNG 3: CÀI ĐẶT, TRIỂN KHAI VÀ KẾT QUẢ ỨNG DỤNG
 
-## 3.1. Kiến trúc ứng dụng
+## 3.1. Kiến trúc triển khai ứng dụng theo các khối
 
-Kiến trúc tổng thể của hệ thống được chia thành **4 khối chức năng** rõ ràng:
-1. **Khối Người dùng (User):** Cán bộ quản lý thao tác trên trình duyệt Web (`http://localhost:8080`).
-2. **Khối Client (`WebClientServer` & `TcpClient` - Cổng 8080):** Hiển thị giao diện HTML/CSS/JS, tiếp nhận thao tác từ người dùng và sử dụng `TcpClient` (`java.net.Socket`) mở kết nối TCP/IP tới Server.
-3. **Khối Backend TCP/IP Server (`TcpServer` & `ClientHandler` - Cổng 9090):** Lắng nghe trên `ServerSocket(9090)`, phân luồng xử lý từng yêu cầu và gọi tầng DAO (`ProvinceDAO`, `WorkerDAO`).
-4. **Khối Cơ sở dữ liệu (Database):** Hệ quản trị CSDL MySQL 8.x (hoặc H2 SQL nhúng) kết nối qua JDBC.
+Về mặt triển khai vật lý và luồng vận hành hệ thống, ứng dụng được tổ chức thành bốn khối chức năng tương tác chặt chẽ với nhau như minh họa tại Hình 3.1:
 
-![Hình 3.1: Sơ đồ kiến trúc tổng thể các khối của ứng dụng](so_do/Hinh_3_1_Kien_Truc_Ung_Dung.png)
-*Hình 3.1: Sơ đồ kiến trúc tổng thể các khối (User – Client – TCP Server – Database).*
+- **Khối Tác nhân Người dùng (User):** Bao gồm cán bộ quản lý nhân sự tương tác trực tiếp với hệ thống thông qua giao diện Web (`http://localhost:8080`) trên trình duyệt máy trạm để thực hiện thêm Tỉnh/TP, thêm Công nhân, tìm kiếm, cập nhật và xóa.
+- **Khối Client (Máy trạm – Cổng 8080):** Gồm `WebClientServer` phục vụ giao diện HTML5/CSS3/JS (`index.html`, `style.css`, `app.js`) và lớp `TcpClient` sử dụng `java.net.Socket` mở kết nối TCP/IP tới địa chỉ `127.0.0.1:9090` để gửi bản tin `TcpRequest` và nhận bản tin `TcpResponse`.
+- **Khối Server (TCP/IP Application Server – Cổng 9090):** Gồm `TcpServer` mở `java.net.ServerSocket` tại cổng **9090**, phân phối các kết nối vào `ExecutorService` ThreadPool để chạy các luồng `ClientHandler`, kết hợp tầng `ProvinceDAO`, `WorkerDAO` và `DatabaseConnection` xử lý nghiệp vụ.
+- **Khối Database Server (MySQL / H2 SQL Server):** Vận hành dịch vụ cơ sở dữ liệu MySQL tại cổng **3306** (kèm trình quản trị H2 Web Console tại cổng **8082**), quản lý schema `quan_ly_cong_nhan` và giao tiếp với khối TCP Server qua giao thức JDBC.
 
-## 3.2. Thiết kế giao thức bản tin truyền thông trên nền TCP/IP
+![Hình 3.1: Sơ đồ kiến trúc triển khai ứng dụng theo các khối (User - Client - Server - Database)](so_do/Hinh_3_1_Kien_Truc_Ung_Dung.png)
+*Hình 3.1: Sơ đồ kiến trúc triển khai ứng dụng theo các khối (User - Client - Server - Database)*
 
-Dữ liệu truyền qua đường ống Socket giữa `TcpClient` và `TcpServer` được đóng gói thành chuỗi **JSON 1 dòng kết thúc bằng ký tự xuống dòng `\n`** (mã hóa `UTF-8`).
+**Bảng 3.1: Thông số giao tiếp mạng giữa các khối kiến trúc trong hệ thống**
 
-**Bảng 3.1: Quy ước các mã lệnh (`action`) trong giao thức truyền thông TCP/IP**
-
-| Mã lệnh (`action`) | Chiều truyền | Dữ liệu gửi kèm (`TcpRequest`) | Dữ liệu phản hồi (`TcpResponse`) |
-| :--- | :---: | :--- | :--- |
-| `GET_ALL_DATA` | Client -> Server | Không có | Toàn bộ danh sách `provinces` và `workers`. |
-| `ADD_PROVINCE` | Client -> Server | `province: {tenTinh, moTa}` | `addedProvince` vừa tạo + danh sách `provinces` mới. |
-| `ADD_WORKER` | Client -> Server | `worker: {hoTen, namSinh, queQuanId, mucLuong}` | `addedWorker` vừa tạo + danh sách `workers` mới. |
-| `SEARCH_WORKERS` | Client -> Server | `queQuanId, min/maxNamSinh, min/maxMucLuong` | Danh sách `workers` thỏa mãn điều kiện lọc. |
-| `UPDATE_WORKER` | Client -> Server | `worker: {id, hoTen, namSinh, queQuanId, mucLuong}` | Bản ghi sau cập nhật + danh sách `workers` mới. |
-| `DELETE_WORKER_BY_ID` | Client -> Server | `workerId` (Mã công nhân cần xóa) | Trạng thái xóa + danh sách `workers` mới. |
-| `DELETE_WORKERS_BY_KEYWORD` | Client -> Server | `keyword` (Từ khóa cần xóa) | Số lượng bản ghi đã xóa + danh sách `workers` mới. |
+| Tuyến kết nối | Giao thức | Cổng mạng | Định danh / Chuỗi kết nối |
+| :--- | :---: | :---: | :--- |
+| Trình duyệt <-> `WebClientServer` | HTTP / JSON | `8080` | `http://localhost:8080` (Giao diện HTML & Endpoint `/api/tcp`) |
+| `TcpClient` <-> `TcpServer` | TCP/IP Socket | `9090` | `Socket(127.0.0.1, 9090)` – Luồng JSON 1 dòng mã hóa `UTF-8` |
+| `TcpServer` <-> MySQL / H2 DB | JDBC / TCP | `3306` / `8082` | `jdbc:mysql://localhost:3306/quan_ly_cong_nhan?characterEncoding=UTF-8` |
 
 <div style="page-break-after: always;"></div>
 
@@ -417,74 +415,37 @@ Dữ liệu truyền qua đường ống Socket giữa `TcpClient` và `TcpServe
 
 <!-- ==================== TRANG 13 / 15 ==================== -->
 
-## 3.3. Cài đặt và triển khai ứng dụng
+## 3.2. Cài đặt và triển khai ứng dụng
 
-### 3.3.1. Công cụ, môi trường và cấu trúc dự án Gradle
+### 3.2.1. Môi trường phát triển và cấu hình thư viện
 
-- **Ngôn ngữ & Công cụ:** Java (OpenJDK 21 LTS), Gradle 9.x, HTML5/CSS3/JavaScript.
-- **Thư viện phụ thuộc (`dependencies` trong `build.gradle`):**
-  - `com.google.code.gson:gson:2.11.0`: Chuyển đổi đối tượng Java <-> chuỗi JSON truyền qua TCP Socket.
-  - `com.mysql:mysql-connector-j:8.4.0` & `com.microsoft.sqlserver:mssql-jdbc:12.6.1.jre11`: Trình điều khiển JDBC cho MySQL và SQL Server.
-  - `com.h2database:h2:2.2.224`: CSDL SQL nhúng dự phòng tích hợp công cụ quản trị H2 Web Console.
-- **Cấu trúc thư mục dự án:**
-```text
-quan-ly-cong-nhan-tcp/
-├── build.gradle & settings.gradle       # Cấu hình Gradle và các task chạy ứng dụng
-├── chay_ung_dung.bat & xem_db.bat       # Script khởi động nhanh ứng dụng và trình xem CSDL
-├── database/                            # Script tạo bảng và dữ liệu mẫu (schema_mysql.sql)
-├── doc/                                 # Lưu báo cáo BTL (.md) và bộ 8 ảnh sơ đồ (so_do/*.png)
-├── frontend/                            # Giao diện người dùng (index.html, style.css, app.js)
-└── src/main/
-    ├── java/com/quanlycongnhan/
-    │   ├── MainApp.java                 # Khởi chạy tích hợp TCP Server (9090) & Web Client (8080)
-    │   ├── model/                       # Province.java, Worker.java, TcpRequest.java, TcpResponse.java
-    │   ├── dao/                         # DatabaseConnection.java, ProvinceDAO.java, WorkerDAO.java
-    │   ├── server/                      # TcpServer.java (ServerSocket), ClientHandler.java
-    │   └── client/                      # TcpClient.java (Socket), WebClientServer.java
-    └── resources/
-        ├── db.properties                # Cấu hình thông số kết nối JDBC và cổng TCP/Web
-        └── static/                      # Tài nguyên tĩnh đồng bộ với thư mục frontend/
-```
+Dự án được xây dựng và quản lý cấu trúc tự động bằng công cụ **Gradle 9.x** (`build.gradle`), sử dụng bộ phát triển **Java Development Kit 21 (OpenJDK 21 LTS)**, hệ quản trị cơ sở dữ liệu **MySQL Server 8.x** cùng các thư viện `gson:2.11.0`, `mysql-connector-j:8.4.0` và `h2:2.2.224`. Thông số kết nối CSDL và cổng mạng (`tcp.port=9090`, `web.port=8080`) được cấu hình tập trung tại tệp `src/main/resources/db.properties` và nạp tự động qua lớp `DatabaseConnection`.
 
-### 3.3.2. Hướng dẫn cài đặt và triển khai chạy ứng dụng
+### 3.2.2. Hiện thực hóa mã nguồn phần chức năng cá nhân
 
-1. **Bước 1 – Cấu hình CSDL:** Kiểm tra tệp `src/main/resources/db.properties`. Hệ thống mặc định kết nối MySQL tại `localhost:3306/quan_ly_cong_nhan` và tự động tạo bảng `tinh_tp`, `cong_nhan` kèm dữ liệu mẫu. Nếu máy chưa bật MySQL, chế độ `db.autoFallback=true` tự động chuyển sang CSDL JDBC nhúng tại `./data/quan_ly_cong_nhan_db`.
-2. **Bước 2 – Khởi chạy ứng dụng:**
-   - *Cách 1 (Chạy tích hợp):* Mở Terminal gõ lệnh `gradle run` (hoặc nhấp đúp vào `chay_ung_dung.bat`).
-   - *Cách 2 (Chạy tách riêng 2 tiến trình Server và Client):*
-     - Terminal 1 (Backend TCP/IP Server cổng `9090`): `gradle runServer`
-     - Terminal 2 (TCP Client & Giao diện HTML cổng `8080`): `gradle runClient`
-3. **Bước 3 – Truy cập giao diện:** Mở trình duyệt Web tại địa chỉ **`http://localhost:8080`** để sử dụng ứng dụng, và **`http://localhost:8082`** để kiểm tra trực tiếp các bảng trong CSDL.
+Dưới đây là mã nguồn cài đặt thực tế các phương thức trọng tâm của phần nhiệm vụ cá nhân tại tầng giao tiếp Socket Client (`TcpClient`), tầng xử lý luồng TCP Server (`ClientHandler`), tầng DAO (`ProvinceDAO`, `WorkerDAO`) và tầng giao diện Frontend (`app.js`):
 
-<div style="page-break-after: always;"></div>
-
-> **--- [ HẾT TRANG 13/15 — SANG TRANG MỚI ] ---**
-
----
-
-<!-- ==================== TRANG 14 / 15 ==================== -->
-
-### 3.3.3. Mã nguồn cài đặt chi tiết chức năng cá nhân
-
-**1. Gửi nhận gói tin qua Socket TCP/IP tại `TcpClient.java`:**
+**Trích đoạn mã nguồn: `client/TcpClient.java` – Gửi yêu cầu và nhận phản hồi qua Socket TCP/IP**
 ```java
 public TcpResponse sendRequest(TcpRequest request) {
     try (Socket socket = new Socket()) {
         socket.connect(new InetSocketAddress(serverHost, serverPort), 3000);
         socket.setSoTimeout(5000);
-        try (PrintWriter writer = new PrintWriter(new OutputStreamWriter(socket.getOutputStream(), StandardCharsets.UTF_8), true);
-             BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream(), StandardCharsets.UTF_8))) {
-            writer.println(gson.toJson(request)); // Gửi gói tin JSON qua OutputStream của Socket
-            String jsonResponse = reader.readLine(); // Nhận gói tin phản hồi từ InputStream của Socket
+        try (PrintWriter writer = new PrintWriter(
+                     new OutputStreamWriter(socket.getOutputStream(), StandardCharsets.UTF_8), true);
+             BufferedReader reader = new BufferedReader(
+                     new InputStreamReader(socket.getInputStream(), StandardCharsets.UTF_8))) {
+            writer.println(gson.toJson(request)); // Truyền bản tin JSON qua Socket TCP
+            String jsonResponse = reader.readLine(); // Nhận bản tin phản hồi từ TCP Server
             return gson.fromJson(jsonResponse, TcpResponse.class);
         }
     } catch (Exception e) {
-        return new TcpResponse(false, request.getAction(), "Không kết nối được tới TCP/IP Server: " + e.getMessage());
+        return new TcpResponse(false, request.getAction(), "Lỗi kết nối TCP: " + e.getMessage());
     }
 }
 ```
 
-**2. Xử lý nghiệp vụ `ADD_PROVINCE` và `ADD_WORKER` tại `ClientHandler.java` (TCP Server):**
+**Trích đoạn mã nguồn: `server/ClientHandler.java` – Xử lý lệnh `ADD_PROVINCE` và `ADD_WORKER` tại Server**
 ```java
 case "ADD_PROVINCE" -> {
     Province p = req.getProvince();
@@ -503,8 +464,10 @@ case "ADD_PROVINCE" -> {
 }
 case "ADD_WORKER" -> {
     Worker w = req.getWorker();
-    String err = validateWorker(w);
-    if (err != null) { res.setSuccess(false); res.setMessage(err); return res; }
+    String validationError = validateWorker(w);
+    if (validationError != null) {
+        res.setSuccess(false); res.setMessage(validationError); return res;
+    }
     Worker created = workerDAO.addWorker(w);
     res.setAddedWorker(created);
     res.setWorkers(workerDAO.getAllWorkers());
@@ -514,30 +477,72 @@ case "ADD_WORKER" -> {
 }
 ```
 
-**3. Hiển thị kết quả Thêm từ phản hồi TCP Server trên giao diện (`frontend/app.js`):**
-```javascript
-function renderAddResult(type, success, message, entity) {
-    const box = document.getElementById('addResultContainer');
-    box.className = 'add-result-box' + (success ? '' : ' error');
-    if (type === 'PROVINCE') {
-        box.innerHTML = `<span class="result-badge ${success ? '' : 'err'}">${success ? 'Thêm Tỉnh/TP thành công' : 'Thêm Tỉnh/TP thất bại'}</span>
-            <div>${escapeHtml(message)}</div>
-            <div class="result-details">
-                <div><strong>Tên Tỉnh/TP:</strong> ${escapeHtml(entity.tenTinh || '')}</div>
-                <div><strong>Mô tả:</strong> ${escapeHtml(entity.moTa || '')}</div>
-            </div>`;
-    } else {
-        box.innerHTML = `<span class="result-badge ${success ? '' : 'err'}">${success ? 'Thêm Công nhân thành công' : 'Thêm Công nhân thất bại'}</span>
-            <div>${escapeHtml(message)}</div>
-            <div class="result-details">
-                <div><strong>Họ tên:</strong> ${escapeHtml(entity.hoTen || '')}</div>
-                <div><strong>Năm sinh:</strong> ${entity.namSinh || ''}</div>
-                <div><strong>Quê quán:</strong> ${escapeHtml(entity.tenQueQuan || '')}</div>
-                <div><strong>Mức lương:</strong> ${entity.mucLuong ? formatCurrency(entity.mucLuong) : ''}</div>
-            </div>`;
+<div style="page-break-after: always;"></div>
+
+> **--- [ HẾT TRANG 13/15 — SANG TRANG MỚI ] ---**
+
+---
+
+<!-- ==================== TRANG 14 / 15 ==================== -->
+
+**Trích đoạn mã nguồn: `dao/ProvinceDAO.java` & `WorkerDAO.java` – Lưu Tỉnh/TP và Công nhân vào CSDL**
+```java
+public Province addProvince(Province province) throws SQLException {
+    String sql = "INSERT INTO tinh_tp (ten_tinh, mo_ta) VALUES (?, ?)";
+    try (Connection conn = DatabaseConnection.getConnection();
+         PreparedStatement ps = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
+        ps.setString(1, province.getTenTinh().trim());
+        ps.setString(2, province.getMoTa() != null ? province.getMoTa().trim() : "");
+        if (ps.executeUpdate() > 0) {
+            try (ResultSet keys = ps.getGeneratedKeys()) {
+                if (keys.next()) return getProvinceById(keys.getInt(1));
+            }
+        }
     }
+    return null;
+}
+
+public Worker addWorker(Worker worker) throws SQLException {
+    String sql = "INSERT INTO cong_nhan (ho_ten, nam_sinh, que_quan_id, muc_luong) VALUES (?, ?, ?, ?)";
+    try (Connection conn = DatabaseConnection.getConnection();
+         PreparedStatement ps = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
+        ps.setString(1, worker.getHoTen().trim());
+        ps.setInt(2, worker.getNamSinh());
+        ps.setInt(3, worker.getQueQuanId());
+        ps.setDouble(4, worker.getMucLuong());
+        if (ps.executeUpdate() > 0) {
+            try (ResultSet keys = ps.getGeneratedKeys()) {
+                if (keys.next()) return getWorkerById(keys.getInt(1));
+            }
+        }
+    }
+    return null;
 }
 ```
+
+### 3.2.3. Quy trình triển khai và vận hành hệ thống
+
+- **Bước 1 – Khởi tạo Cơ sở dữ liệu:** Khởi động dịch vụ MySQL Server tại cổng `3306` (hoặc sử dụng chế độ tự động khởi tạo trong `DatabaseConnection`). Hệ thống tự động tạo database `quan_ly_cong_nhan`, hai bảng `tinh_tp` và `cong_nhan`.
+- **Bước 2 – Khởi chạy Backend TCP/IP Server (`TcpServer`):** Chạy lệnh `gradle runServer` (hoặc chạy tích hợp qua `gradle run` / `chay_ung_dung.bat`). Tiến trình mở `ServerSocket` lắng nghe tại cổng **9090**.
+- **Bước 3 – Khởi chạy TCP Client & Giao diện Web (`WebClientServer`):** Chạy lệnh `gradle runClient` và mở trình duyệt tại `http://localhost:8080`.
+
+## 3.3. Các kết quả thực hiện được và Kiểm thử ứng dụng
+
+### 3.3.1. Giao diện thực tế và các tính năng hoàn thành
+
+![Hình 3.2: Giao diện chạy thực tế chức năng Thêm Tỉnh/TP, Thêm Công nhân và Hiển thị kết quả Thêm](so_do/Hinh_3_2_Giao_Dien_Thuc_Te.png)
+*Hình 3.2: Giao diện chạy thực tế chức năng Thêm Tỉnh/TP, Thêm Công nhân và Hiển thị kết quả Thêm*
+
+**Bảng 3.2: Tổng hợp đánh giá mức độ hoàn thành các chức năng theo yêu cầu đề bài**
+
+| STT | Hạng mục chức năng | Lớp / Tệp cài đặt chính | Trạng thái |
+| :---: | :--- | :--- | :---: |
+| 1 | Khởi tạo TCP/IP `ServerSocket (9090)` & Xử lý đa luồng | `TcpServer.java`, `ClientHandler.java` | Hoàn thành 100% |
+| 2 | Quản lý Công nhân (Danh sách, Cập nhật, Xóa 1 CN, Xóa theo từ khóa) | `WorkerDAO.java`, `ClientHandler.java`, `app.js` | Hoàn thành 100% |
+| 3 | Tìm kiếm Công nhân theo Quê quán / Khoảng năm sinh / Khoảng lương | `WorkerDAO.searchWorkers()`, `app.js` | Hoàn thành 100% |
+| 4 | **[Cá nhân]** Thêm Tỉnh / Thành phố mới qua TCP/IP | `ProvinceDAO.addProvince()`, `ClientHandler`, `app.js` | Hoàn thành 100% |
+| 5 | **[Cá nhân]** Thêm Công nhân mới (chọn quê quán từ danh sách) | `WorkerDAO.addWorker()`, `ClientHandler`, `app.js` | Hoàn thành 100% |
+| 6 | **[Cá nhân]** Hiển thị chi tiết kết quả Thêm từ phản hồi TCP Server | `TcpResponse.java`, `app.js (renderAddResult)` | Hoàn thành 100% |
 
 <div style="page-break-after: always;"></div>
 
@@ -547,35 +552,36 @@ function renderAddResult(type, success, message, entity) {
 
 <!-- ==================== TRANG 15 / 15 ==================== -->
 
-## 3.4. Các kết quả thực hiện được và Kiểm thử thực nghiệm
+### 3.3.2. Kịch bản kiểm thử (Test Cases) và kết quả thử nghiệm
 
-Ứng dụng đã hoàn thiện đầy đủ tất cả các tính năng của đề tài:
-1. **Thêm Tỉnh/TP & Hiển thị kết quả Thêm (Cá nhân):** Thêm mới Tỉnh/TP qua Socket TCP/IP, kiểm tra trùng lặp tên, hiển thị chi tiết bản ghi vừa thêm vào khung kết quả và tự động nạp vào danh sách chọn Quê quán.
-2. **Thêm Công nhân & Hiển thị kết quả Thêm (Cá nhân):** Chọn quê quán từ danh sách Tỉnh/TP, kiểm tra hợp lệ năm sinh và mức lương, lưu vào bảng `cong_nhan`, hiển thị chi tiết tại khung *Hiển thị kết quả Thêm* và đưa lên đầu bảng Danh sách Công nhân.
-3. **Các chức năng hệ thống khác:** Tìm kiếm kết hợp theo *Quê quán / Khoảng năm sinh / Khoảng lương*; Cập nhật thông tin công nhân; Xóa một công nhân và Xóa công nhân theo từ khóa.
+Hệ thống được kiểm thử thực tế với bộ dữ liệu trong cơ sở dữ liệu `quan_ly_cong_nhan` qua 8 kịch bản kiểm thử đại diện cho các tình huống sử dụng bình thường và ngoại lệ (Bảng 3.3).
 
-**Bảng 3.2: Kết quả kiểm thử thực nghiệm (Test Cases) các chức năng của ứng dụng**
+**Bảng 3.3: Bảng kết quả kiểm thử chức năng Thêm mới, Tìm kiếm và giao tiếp TCP/IP**
 
-| Mã TC | Kịch bản kiểm thử | Dữ liệu đầu vào (Input) | Kết quả thực tế đạt được | Đánh giá |
+| Mã TC | Kịch bản kiểm thử | Dữ liệu đầu vào | Kết quả thực tế | Đánh giá |
 | :---: | :--- | :--- | :--- | :---: |
-| **TC01** | Thêm Tỉnh/TP mới hợp lệ | `tenTinh="Quảng Ninh"`, `moTa="Khu CN cảng biển"` | Lưu vào bảng `tinh_tp`; khung *Hiển thị kết quả Thêm* và ô chọn Quê quán cập nhật ngay. | **Đạt** |
-| **TC02** | Thêm Tỉnh/TP bị trùng tên | `tenTinh="Hà Nội"` (đã có trong CSDL) | Server từ chối, trả về `success=false`; khung kết quả báo lỗi *"Tỉnh/TP 'Hà Nội' đã tồn tại!"*. | **Đạt** |
-| **TC03** | Thêm Công nhân mới hợp lệ | `hoTen="Vũ Minh Tuấn"`, `namSinh=1997`, `queQuan="Quảng Ninh"`, `mucLuong=15000000` | Lưu vào bảng `cong_nhan`; hiển thị đầy đủ tại khung *Hiển thị kết quả Thêm* và đầu bảng CN. | **Đạt** |
-| **TC04** | Thêm Công nhân sai năm sinh | `hoTen="Lê Văn B"`, `namSinh=1920`, `queQuan="Hà Nội"`, `mucLuong=10000000` | Server phát hiện năm sinh ngoài khoảng `1940–2015`; khung kết quả báo *"Năm sinh không hợp lệ!"*. | **Đạt** |
-| **TC05** | Tìm kiếm công nhân đa tiêu chí | `Quê quán="Hà Nội"`, `Năm sinh: 1990-2000`, `Mức lương: 10tr-15tr` | Server thực thi truy vấn lọc động, hiển thị đúng các công nhân thỏa mãn cả 3 điều kiện. | **Đạt** |
-| **TC06** | Cập nhật & Xóa công nhân | Sửa lương CN `#1` thành `14000000`; Xóa CN `#4` và Xóa theo từ khóa `"Bắc Ninh"` | Cập nhật và xóa chính xác trong CSDL qua giao thức TCP/IP. | **Đạt** |
+| **TC01** | Thêm Tỉnh/TP mới hợp lệ (Cá nhân) | Tên: `'Quảng Ninh'`, Mô tả: `'Khu công nghiệp cảng biển'` | Lưu bảng `tinh_tp`; khung Kết quả Thêm hiện Tỉnh Quảng Ninh; nạp ngay vào ô chọn Quê quán | **Đạt** |
+| **TC02** | Thêm Tỉnh/TP bị trùng tên (Cá nhân) | Tên: `'Hà Nội'` (đã tồn tại trong CSDL) | Server từ chối thêm; khung Kết quả Thêm báo lỗi đỏ: `"Tỉnh/TP 'Hà Nội' đã tồn tại!"` | **Đạt** |
+| **TC03** | Thêm Công nhân mới chọn quê quán từ danh sách (Cá nhân) | Họ tên: `'Vũ Minh Tuấn'`, Năm sinh: `1997`, Quê quán: `'Quảng Ninh'`, Lương: `15000000` | Lưu bảng `cong_nhan`; khung Kết quả Thêm hiện chi tiết công nhân; thêm dòng mới đầu bảng | **Đạt** |
+| **TC04** | Thêm Công nhân với năm sinh không hợp lệ (Cá nhân) | Họ tên: `'Lê Văn B'`, Năm sinh: `1920`, Quê quán: `'Hà Nội'`, Lương: `10000000` | Server kiểm tra `validateWorker()` và trả về lỗi: `'Năm sinh không hợp lệ!'` | **Đạt** |
+| **TC05** | Tìm kiếm Công nhân theo Quê quán + Khoảng năm sinh + Lương | Quê quán: `'Hà Nội'`, Năm sinh: `1990–2000`, Lương: `10tr–15tr` | Server thực thi SQL lọc động, trả về đúng công nhân Nguyễn Văn An (`1995`, Hà Nội, `12.500.000 đ`) | **Đạt** |
+| **TC06** | Cập nhật thông tin Công nhân qua TCP/IP | Sửa mức lương công nhân `#1` từ `12500000` thành `14000000` | Thực thi `UPDATE cong_nhan`; bảng danh sách cập nhật ngay mức lương `14.000.000 đ` | **Đạt** |
+| **TC07** | Xóa một công nhân & Xóa công nhân theo từ khóa | Bấm nút Xóa tại dòng `#4`; Nhập từ khóa `'Bắc Ninh'` vào ô Xóa theo từ khóa | Xóa chính xác công nhân `#4` và xóa toàn bộ công nhân khớp từ khóa `'Bắc Ninh'` | **Đạt** |
+| **TC08** | Kiểm thử ngắt kết nối TCP Server đột ngột | Dừng `TcpServer` (cổng `9090`) và bấm nút Thêm Công nhân trên Client | `TcpClient` bắt `IOException`, hiển thị thông báo `'Không kết nối được tới TCP/IP Server'` | **Đạt** |
+
+### 3.3.3. Đánh giá ưu điểm, hạn chế và hướng phát triển
+
+- **Ưu điểm:** Hệ thống tuân thủ chuẩn kiến trúc Client – Server sử dụng giao thức Socket TCP/IP đa luồng (`ServerSocket` / `Socket` + `ExecutorService`); giao thức bản tin JSON một dòng mã hóa `UTF-8` truyền tải tiếng Việt chính xác; sử dụng `PreparedStatement` an toàn trước tấn công SQL Injection; giao diện trực quan, phản hồi tức thì kết quả thêm mới từ Server.
+- **Hạn chế và Hướng phát triển:** Hiện tại đường truyền Socket TCP đang truyền văn bản JSON thuần chưa mã hóa bảo mật tầng giao vận và chưa phân quyền tài khoản đăng nhập. Trong hướng phát triển tiếp theo, hệ thống có thể nâng cấp lên `SSLServerSocket` / `SSLSocket` (TLS), bổ sung chức năng đăng nhập phân quyền (Admin / Nhân sự) và xuất báo cáo danh sách lương công nhân ra tệp Excel / PDF.
 
 ---
 
-# KẾT LUẬN VÀ TÀI LIỆU THAM KHẢO
+# TÀI LIỆU THAM KHẢO
 
-## 1. Kết luận
-Qua quá trình thực hiện Bài tập lớn học phần **Lập trình mạng**, em đã nắm vững nguyên lý lập trình mạng với **Java TCP/IP Socket (`ServerSocket` và `Socket`)** đa luồng kết hợp cơ sở dữ liệu **JDBC (MySQL / H2)** và công cụ **Gradle**. Toàn bộ các chức năng của hệ thống, đặc biệt là 3 chức năng cá nhân (**Thêm Tỉnh/TP**, **Thêm Công nhân chọn quê quán từ danh sách** và **Hiển thị kết quả Thêm**), đã được phân tích, thiết kế đầy đủ sơ đồ UML/ERD, cài đặt hoàn chỉnh và kiểm thử đạt yêu cầu 100%.
-
-## 2. Tài liệu tham khảo
-1. Bài giảng học phần *Lập trình mạng*, Bộ môn Công nghệ Phần mềm / Mạng máy tính, Giảng viên: Thầy Hoàng Anh.
-2. Elliotte Rusty Harold, *Java Network Programming (4th Edition)*, O'Reilly Media, 2014.
-3. Oracle Corporation, *The Java™ Tutorials – Custom Networking (Sockets) & JDBC Documentation*, https://docs.oracle.com/javase/tutorial/.
-4. Tài liệu hướng dẫn công cụ quản lý dự án *Gradle User Manual*, https://docs.gradle.org/.
+[1] Nguyễn Hoàng Anh, *Bài giảng môn Lập trình mạng (INT1433)*, Khoa Công nghệ Thông tin 1, Học viện Công nghệ Bưu chính Viễn thông (PTIT), Hà Nội, 2026.  
+[2] Oracle Corporation, *The Java™ Tutorials – Custom Networking (All About Sockets & ServerSockets)*, https://docs.oracle.com/javase/tutorial/networking/sockets/.  
+[3] Oracle Corporation, *MySQL Connector/J 8.4 Developer Guide (JDBC API)*, https://dev.mysql.com/doc/connector-j/en/.  
+[4] Elliotte Rusty Harold, *Java Network Programming (4th Edition)*, O'Reilly Media, 2014.  
+[5] Esmond Pitt, *Fundamental Networking in Java*, Springer-Verlag London, 2006.
 
 > **--- [ HẾT TRANG 15/15 — KẾT THÚC BÁO CÁO ] ---**
