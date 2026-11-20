@@ -35,34 +35,32 @@
 
 # MỤC LỤC
 
-| Nội dung | Trang |
-| :--- | :---: |
-| **DANH MỤC TỪ VIẾT TẮT** | 3 |
-| **DANH MỤC HÌNH VẼ** | 3 |
-| **DANH MỤC BẢNG BIỂU** | 3 |
-| **CHƯƠNG 1: MỞ ĐẦU VÀ PHÂN TÍCH YÊU CẦU** | 4 |
-| 1.1. Giới thiệu bài toán và ứng dụng Quản lý Công nhân | 4 |
-| 1.2. Cơ sở lý thuyết và Công nghệ sử dụng | 4 |
-| 1.3. Phân tích yêu cầu chức năng tổng quan hệ thống | 5 |
-| 1.4. Phân tích yêu cầu chức năng Cá nhân thực hiện | 6 |
-| **CHƯƠNG 2: PHÂN TÍCH VÀ THIẾT KẾ HỆ THỐNG** | 7 |
-| 2.1. Phân tích thiết kế tổng quan ứng dụng | 7 |
-| 2.2. Phân tích thiết kế chi tiết chức năng Cá nhân đảm nhận | 7 |
-| 2.2.1. Biểu đồ Use Case và Đặc tả Use Case chi tiết | 7 |
-| 2.2.2. Biểu đồ lớp (Class Diagram) chi tiết | 9 |
-| 2.2.3. Biểu đồ tuần tự (Sequence Diagram) | 10 |
-| 2.2.4. Sơ đồ thực thể quan hệ (ERD) và Thiết kế cơ sở dữ liệu | 11 |
-| **CHƯƠNG 3: CÀI ĐẶT, TRIỂN KHAI VÀ KẾT QUẢ ỨNG DỤNG** | 12 |
-| 3.1. Kiến trúc triển khai ứng dụng theo các khối | 12 |
-| 3.2. Cài đặt và triển khai ứng dụng | 13 |
-| 3.2.1. Môi trường phát triển và cấu hình thư viện | 13 |
-| 3.2.2. Hiện thực hóa mã nguồn phần chức năng cá nhân | 13 |
-| 3.2.3. Quy trình triển khai và vận hành hệ thống | 14 |
-| 3.3. Các kết quả thực hiện được và Kiểm thử ứng dụng | 14 |
-| 3.3.1. Giao diện thực tế và các tính năng hoàn thành | 14 |
-| 3.3.2. Kịch bản kiểm thử (Test Cases) và kết quả thử nghiệm | 15 |
-| 3.3.3. Đánh giá ưu điểm, hạn chế và hướng phát triển | 15 |
-| **TÀI LIỆU THAM KHẢO** | 15 |
+**DANH MỤC TỪ VIẾT TẮT**........................................................................................................**2**  
+**DANH MỤC HÌNH VẼ**..............................................................................................................**2**  
+**DANH MỤC BẢNG BIỂU**..........................................................................................................**3**  
+**CHƯƠNG 1: MỞ ĐẦU VÀ PHÂN TÍCH YÊU CẦU**.................................................................**4**  
+&emsp;1.1. Giới thiệu bài toán và ứng dụng Quản lý Công nhân.......................................................4  
+&emsp;1.2. Cơ sở lý thuyết và Công nghệ sử dụng............................................................................4  
+&emsp;1.3. Phân tích yêu cầu chức năng tổng quan hệ thống............................................................6  
+&emsp;1.4. Phân tích yêu cầu chức năng Cá nhân thực hiện..............................................................6  
+**CHƯƠNG 2: PHÂN TÍCH VÀ THIẾT KẾ HỆ THỐNG**..............................................................**7**  
+&emsp;2.1. Phân tích thiết kế tổng quan ứng dụng............................................................................7  
+&emsp;2.2. Phân tích thiết kế chi tiết chức năng Cá nhân đảm nhận....................................................7  
+&emsp;&emsp;2.2.1. Biểu đồ Use Case và Đặc tả Use Case chi tiết.........................................................7  
+&emsp;&emsp;2.2.2. Biểu đồ lớp (Class Diagram) chi tiết......................................................................11  
+&emsp;&emsp;2.2.3. Biểu đồ tuần tự (Sequence Diagram).....................................................................13  
+&emsp;&emsp;2.2.4. Sơ đồ thực thể quan hệ (ERD) và Thiết kế cơ sở dữ liệu........................................14  
+**CHƯƠNG 3: CÀI ĐẶT, TRIỂN KHAI VÀ KẾT QUẢ ỨNG DỤNG**...........................................**16**  
+&emsp;3.1. Kiến trúc triển khai ứng dụng theo các khối...................................................................16  
+&emsp;3.2. Cài đặt và triển khai ứng dụng.......................................................................................17  
+&emsp;&emsp;3.2.1. Môi trường phát triển và cấu hình thư viện............................................................17  
+&emsp;&emsp;3.2.2. Hiện thực hóa mã nguồn phần chức năng cá nhân.................................................17  
+&emsp;&emsp;3.2.3. Quy trình triển khai và vận hành hệ thống.............................................................18  
+&emsp;3.3. Các kết quả thực hiện được và Kiểm thử ứng dụng........................................................18  
+&emsp;&emsp;3.3.1. Giao diện thực tế và các tính năng hoàn thành......................................................18  
+&emsp;&emsp;3.3.2. Kịch bản kiểm thử (Test Cases) và kết quả thử nghiệm..........................................19  
+&emsp;&emsp;3.3.3. Đánh giá ưu điểm, hạn chế và hướng phát triển....................................................21  
+**TÀI LIỆU THAM KHẢO**...........................................................................................................**21**
 
 <div style="page-break-after: always;"></div>
 
