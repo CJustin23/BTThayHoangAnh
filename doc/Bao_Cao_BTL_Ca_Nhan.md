@@ -17,8 +17,8 @@
 | Thông tin | Chi tiết |
 | :--- | :--- |
 | **Giảng viên hướng dẫn** | : **NGUYỄN HOÀNG ANH** |
-| **Họ và tên sinh viên** | : **NGUYỄN TIẾN THÀNH** |
-| **Mã sinh viên** | : **B24DTCN283** |
+| **Họ và tên sinh viên** | : **NGUYỄN TRƯỜNG AN** |
+| **Mã sinh viên** | : **B24DTCN181** |
 | **Lớp** | : **D24TXCN08-B** |
 
 <br>
